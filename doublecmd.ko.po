@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.7.1 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2017-06-12 23:11+0900\n"
+"PO-Revision-Date: 2017-06-18 08:40+0900\n"
 "Last-Translator: Sangjin <comsem1104@naver.com>\n"
 "Language-Team: Language <email@address>\n"
 "MIME-Version: 1.0\n"
@@ -2522,7 +2522,7 @@ msgstr "즐겨찾기 탭에서 불러오기"
 
 #: tfrmmain.actloadselectionfromclip.caption
 msgid "Load Selection from Clip&board"
-msgstr "클립&보드에서 선택 불러오기(&B)"
+msgstr "클립보드에서 선택 불러오기(&B)"
 
 #: tfrmmain.actloadselectionfromfile.caption
 msgid "&Load Selection from File..."
@@ -4052,17 +4052,17 @@ msgstr "목록 형태(&M):"
 #: tfrmoptionsarchivers.lblarchiveliststart.caption
 msgctxt "TFRMOPTIONSARCHIVERS.LBLARCHIVELISTSTART.CAPTION"
 msgid "Listin&g start (optional):"
-msgstr "목록 실행(선택사항):"
+msgstr "목록 실행(선택사항)(&G):"
 
 #: tfrmoptionsarchivers.lblarchiver.caption
 msgctxt "TFRMOPTIONSARCHIVERS.LBLARCHIVER.CAPTION"
 msgid "Arc&hiver:"
-msgstr "&압축기:"
+msgstr "압축기(&H):"
 
 #: tfrmoptionsarchivers.lbldescription.caption
 msgctxt "TFRMOPTIONSARCHIVERS.LBLDESCRIPTION.CAPTION"
 msgid "De&scription:"
-msgstr "&설명:"
+msgstr "설명(&S):"
 
 #: tfrmoptionsarchivers.tbarchiveradditional.caption
 msgctxt "TFRMOPTIONSARCHIVERS.TBARCHIVERADDITIONAL.CAPTION"
@@ -4077,22 +4077,22 @@ msgstr "일반"
 #: tfrmoptionsautorefresh.cbwatchattributeschange.caption
 msgctxt "TFRMOPTIONSAUTOREFRESH.CBWATCHATTRIBUTESCHANGE.CAPTION"
 msgid "When &size, date or attributes change"
-msgstr "&크기, 날자 또는 속성이 변경되었을 때"
+msgstr "크기, 날자 또는 속성이 변경되었을 때(&S)"
 
 #: tfrmoptionsautorefresh.cbwatchexcludedirs.caption
 msgctxt "TFRMOPTIONSAUTOREFRESH.CBWATCHEXCLUDEDIRS.CAPTION"
 msgid "For the following &paths and their subdirectories:"
-msgstr "다음 경로와 하위 디렉토리:"
+msgstr "다음 경로와 하위 디렉토리(&P):"
 
 #: tfrmoptionsautorefresh.cbwatchfilenamechange.caption
 msgctxt "TFRMOPTIONSAUTOREFRESH.CBWATCHFILENAMECHANGE.CAPTION"
 msgid "When &files are created, deleted or renamed"
-msgstr "파일이 만들어지면 삭제 또는 파일명 바꾸기"
+msgstr "파일이 만들어지면 삭제 또는 파일명 바꾸기(&F)"
 
 #: tfrmoptionsautorefresh.cbwatchonlyforeground.caption
 msgctxt "TFRMOPTIONSAUTOREFRESH.CBWATCHONLYFOREGROUND.CAPTION"
 msgid "When application is in the &background"
-msgstr "어플리케이션이 백그라인드에 실행될 때"
+msgstr "어플리케이션이 백그라운드에 실행될 때(&B)"
 
 #: tfrmoptionsautorefresh.gbautorefreshdisable.caption
 msgctxt "TFRMOPTIONSAUTOREFRESH.GBAUTOREFRESHDISABLE.CAPTION"
@@ -4107,21 +4107,21 @@ msgstr "파일 목록 새로고침"
 #: tfrmoptionsbehavior.cbalwaysshowtrayicon.caption
 msgctxt "TFRMOPTIONSBEHAVIOR.CBALWAYSSHOWTRAYICON.CAPTION"
 msgid "Al&ways show tray icon"
-msgstr "항&상 트레이에 위치"
+msgstr "항상 트레이에 위치(&W)"
 
 #: tfrmoptionsbehavior.cbblacklistunmounteddevices.caption
 msgid "Automatically &hide unmounted devices"
-msgstr "마운트되지 않은 디바이스 자동 숨기기"
+msgstr "마운트되지 않은 디바이스 자동 숨기기(&H)"
 
 #: tfrmoptionsbehavior.cbminimizetotray.caption
 msgctxt "TFRMOPTIONSBEHAVIOR.CBMINIMIZETOTRAY.CAPTION"
 msgid "Mo&ve icon to system tray when minimized"
-msgstr "최소화시 시스템 트레이로 &이동"
+msgstr "최소화시 시스템 트레이로 이동(&V)"
 
 #: tfrmoptionsbehavior.cbonlyonce.caption
 msgctxt "TFRMOPTIONSBEHAVIOR.CBONLYONCE.CAPTION"
 msgid "A&llow only one copy of DC at a time"
-msgstr "더블커맨더 오직 하나만 실행 &허용"
+msgstr "더블커맨더 오직 하나만 실행 허용(&L)"
 
 #: tfrmoptionsbehavior.edtdrivesblacklist.hint
 msgid "Here you can enter one or more drives or mount points, separated by \";\"."
@@ -4129,7 +4129,7 @@ msgstr "\";\"로 구분된 하나 이상의 드라이브 입력"
 
 #: tfrmoptionsbehavior.lbldrivesblacklist.caption
 msgid "Drives &blacklist"
-msgstr "디바이스 &제외리스트"
+msgstr "디바이스 제외리스트(&B)"
 
 #: tfrmoptionsbriefview.gbcolumns.caption
 msgid "Columns size"
@@ -4145,7 +4145,7 @@ msgstr "(탭)정렬(&G)"
 
 #: tfrmoptionsbriefview.rbdirectly.caption
 msgid "di&rectly after filename"
-msgstr "파일명 뒤에 폴더명"
+msgstr "파일명 뒤에 폴더명(&R)"
 
 #: tfrmoptionsbriefview.rbuseautosize.caption
 msgid "Auto"
@@ -4161,19 +4161,19 @@ msgstr "고정된 파일속성열 제목폭"
 
 #: tfrmoptionscolumnsview.cbcuttexttocolwidth.caption
 msgid "Cut &text to column width"
-msgstr "파일속성열 제목 폭 &텍스트 잘라내기"
+msgstr "파일속성열 제목 폭 텍스트 잘라내기(&T)"
 
 #: tfrmoptionscolumnsview.cbgridhorzline.caption
 msgid "&Horizontal lines"
-msgstr "&수평줄"
+msgstr "수평줄(&H)"
 
 #: tfrmoptionscolumnsview.cbgridvertline.caption
 msgid "&Vertical lines"
-msgstr "&수직줄"
+msgstr "수직줄(&V)"
 
 #: tfrmoptionscolumnsview.chkautofillcolumns.caption
 msgid "A&uto fill columns"
-msgstr "&자동 파일속성열 제목 채움"
+msgstr "자동 파일속성열 제목 채움(&U)"
 
 #: tfrmoptionscolumnsview.gbshowgrid.caption
 msgid "Show grid"
@@ -4185,34 +4185,34 @@ msgstr "자동 파일속성열 제목 크기"
 
 #: tfrmoptionscolumnsview.lblautosizecolumn.caption
 msgid "Auto si&ze column:"
-msgstr "자동 파일속성열 제목 크기:"
+msgstr "자동 파일속성열 제목 크기(&Z):"
 
 #: tfrmoptionsconfiguration.btnconfigapply.caption
 msgctxt "TFRMOPTIONSCONFIGURATION.BTNCONFIGAPPLY.CAPTION"
 msgid "A&pply"
-msgstr "&적용"
+msgstr "적용(&P)"
 
 #: tfrmoptionsconfiguration.btnconfigedit.caption
 msgctxt "TFRMOPTIONSCONFIGURATION.BTNCONFIGEDIT.CAPTION"
 msgid "&Edit"
-msgstr "&편집"
+msgstr "편집(&E)"
 
 #: tfrmoptionsconfiguration.cbcmdlinehistory.caption
 msgid "Co&mmand line history"
-msgstr "명령 프롬프트 히스토리"
+msgstr "명령 프롬프트 히스토리(&M)"
 
 #: tfrmoptionsconfiguration.cbdirhistory.caption
 msgctxt "TFRMOPTIONSCONFIGURATION.CBDIRHISTORY.CAPTION"
 msgid "&Directory history"
-msgstr "&폴더 히스토리"
+msgstr "폴더 히스토리(&D)"
 
 #: tfrmoptionsconfiguration.cbfilemaskhistory.caption
 msgid "&File mask history"
-msgstr "&찾은 파일 히스토리"
+msgstr "찾은 파일 히스토리(&F)"
 
 #: tfrmoptionsconfiguration.chksaveconfiguration.caption
 msgid "Sa&ve configuration"
-msgstr "환경설정 &저장"
+msgstr "환경설정 저장(&V)"
 
 #: tfrmoptionsconfiguration.chksearchreplacehistory.caption
 msgid "Searc&h/Replace history"
