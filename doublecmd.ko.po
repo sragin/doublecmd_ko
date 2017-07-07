@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.7.1 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2017-07-02 15:42+0900\n"
+"PO-Revision-Date: 2017-07-08 06:27+0900\n"
 "Last-Translator: Sangjin <comsem1104@naver.com>\n"
 "Language-Team: Language <email@address>\n"
 "MIME-Version: 1.0\n"
@@ -278,7 +278,7 @@ msgstr "링크 수정(&K)"
 #: tfilesystemcopymoveoperationoptionsui.cbdropreadonlyflag.caption
 msgctxt "TFILESYSTEMCOPYMOVEOPERATIONOPTIONSUI.CBDROPREADONLYFLAG.CAPTION"
 msgid "Drop readonly fla&g"
-msgstr "읽기전용 변경"
+msgstr "읽기전용 변경(&G)"
 
 #: tfilesystemcopymoveoperationoptionsui.cbexcludeemptydirectories.caption
 msgid "E&xclude empty directories"
@@ -1370,7 +1370,7 @@ msgstr "*.*"
 
 #: tfrmextractdlg.cbinseparatefolder.caption
 msgid "Unpack each archive to a &separate subdir (name of the archive)"
-msgstr "압축파일 하위폴더에 분리하여 풀기"
+msgstr "압축파일 하위폴더에 분리하여 풀기(&S)"
 
 #: tfrmextractdlg.cboverwrite.caption
 msgid "O&verwrite existing files"
@@ -2407,7 +2407,7 @@ msgstr "상위 파일 경로 편집"
 
 #: tfrmmain.actexchange.caption
 msgid "Swap &Panels"
-msgstr "창 바꾸기"
+msgstr "창 바꾸기(&P)"
 
 #: tfrmmain.actexit.caption
 msgctxt "TFRMMAIN.ACTEXIT.CAPTION"
@@ -2420,7 +2420,7 @@ msgstr "파일 압축해제(&E)..."
 
 #: tfrmmain.actfileassoc.caption
 msgid "Configuration of File &Associations"
-msgstr "연결 프로그램 설정"
+msgstr "연결 프로그램 설정(&A)"
 
 #: tfrmmain.actfilelinker.caption
 msgid "Com&bine Files..."
@@ -2454,7 +2454,7 @@ msgstr "목록의 마지막 파일에 커서 두기"
 #: tfrmmain.acthardlink.caption
 msgctxt "TFRMMAIN.ACTHARDLINK.CAPTION"
 msgid "Create &Hard Link..."
-msgstr "복사본 만들기..."
+msgstr "복사본 만들기(&H)..."
 
 #: tfrmmain.acthelpindex.caption
 msgid "&Contents"
@@ -2490,7 +2490,7 @@ msgstr "왼쪽에 드라이브 목록 열기"
 
 #: tfrmmain.actleftreverseorder.caption
 msgid "Re&verse order on left panel"
-msgstr "왼쪽창에 역순으로 정렬"
+msgstr "왼쪽창에 역순으로 정렬(&V)"
 
 #: tfrmmain.actleftsortbyattr.caption
 msgid "Sort left panel by &Attributes"
@@ -2906,7 +2906,7 @@ msgstr "매개변수에 따라 정렬"
 
 #: tfrmmain.actunmarkcurrentextension.caption
 msgid "Unselect All with the Same Ex&tension"
-msgstr "같은 확장자 전체 선택해제"
+msgstr "같은 확장자 전체 선택해제(&T)"
 
 #: tfrmmain.actview.caption
 msgctxt "tfrmmain.actview.caption"
@@ -5125,7 +5125,7 @@ msgstr "텍스트를 다른 창으로 드래그 && 드롭할 때:"
 
 #: tfrmoptionsdragdrop.lblmostdesiredtextformat1.caption
 msgid "Place the most desired format on top of list (use dag && drop):"
-msgstr "가장 원하는 파일 형태 상위로 이동(드래그앤 드롭):"
+msgstr "가장 원하는 파일 형태 상위로 이동(드래그 && 드롭):"
 
 #: tfrmoptionsdragdrop.lblmostdesiredtextformat2.caption
 msgid "(if the most desired is not present, we'll take second one and so on)"
@@ -5248,7 +5248,7 @@ msgstr "켜기(&N)"
 
 #: tfrmoptionseditorcolors.textstrikeoutcheckbox.caption
 msgid "&Strike Out"
-msgstr "스트타이크 아웃(&S)"
+msgstr "스트라이크 아웃(&S)"
 
 #: tfrmoptionseditorcolors.textstrikeoutradioinvert.caption
 msgctxt "TFRMOPTIONSEDITORCOLORS.TEXTSTRIKEOUTRADIOINVERT.CAPTION"
@@ -5832,16 +5832,16 @@ msgstr "삭제 연산(&D)"
 
 #: tfrmoptionsfileoperations.cbdeletetotrash.caption
 msgid "Dele&te to recycle bin (Shift key reverses this setting)"
-msgstr "휴지통으로 삭제(Shift 키 누르면 바로 삭제) (&T)"
+msgstr "휴지통으로 삭제(Shift 키 누르면 바로 삭제)(&T)"
 
 #: tfrmoptionsfileoperations.cbdeletetotrashconfirmation.caption
 msgid "D&elete to trash operation"
-msgstr "쓰레기 연산으로 삭제"
+msgstr "휴지통으로 삭제(&E)"
 
 #: tfrmoptionsfileoperations.cbdropreadonlyflag.caption
 msgctxt "TFRMOPTIONSFILEOPERATIONS.CBDROPREADONLYFLAG.CAPTION"
 msgid "D&rop readonly flag"
-msgstr "읽기 전용 지정"
+msgstr "읽기 전용 지정(&R)"
 
 #: tfrmoptionsfileoperations.cbmoveconfirmation.caption
 msgid "&Move operation"
@@ -5886,11 +5886,11 @@ msgstr "사용자 인터페이스"
 
 #: tfrmoptionsfileoperations.lblbuffersize.caption
 msgid "&Buffer size for file operations (in KB):"
-msgstr "파일 작업 버퍼 크기 (KB단위) (&B):"
+msgstr "파일 작업 버퍼 크기 (KB단위)(&B):"
 
 #: tfrmoptionsfileoperations.lblhashbuffersize.caption
 msgid "Buffer size for &hash calculation (in KB):"
-msgstr "해시 계산 버퍼 크기 (KB단위) (&H):"
+msgstr "해시 계산 버퍼 크기 (KB단위)(&H):"
 
 #: tfrmoptionsfileoperations.lblprogresskind.caption
 msgid "Show operations progress &initially in"
@@ -6356,7 +6356,7 @@ msgstr "모두(&L)"
 #: tfrmoptionsicons.rbiconsshowallandexe.caption
 msgctxt "TFRMOPTIONSICONS.RBICONSSHOWALLANDEXE.CAPTION"
 msgid "All associated + &EXE/LNK (slow)"
-msgstr "모든 관계된 + EXE/LNK(천천히) (&E)"
+msgstr "모든 관계된 + EXE/LNK(천천히)(&E)"
 
 #: tfrmoptionsicons.rbiconsshownone.caption
 msgctxt "TFRMOPTIONSICONS.RBICONSSHOWNONE.CAPTION"
@@ -6386,7 +6386,7 @@ msgstr "적절한 경로 선택을 위한 기능"
 #: tfrmoptionsignorelist.chkignoreenable.caption
 msgctxt "TFRMOPTIONSIGNORELIST.CHKIGNOREENABLE.CAPTION"
 msgid "&Ignore (don't show) the following files and folders:"
-msgstr "다음 파일과 폴더 무시(표시 안 함) (&I):"
+msgstr "다음 파일과 폴더 무시(표시 안 함)(&I):"
 
 #: tfrmoptionsignorelist.lblsavein.caption
 msgctxt "TFRMOPTIONSIGNORELIST.LBLSAVEIN.CAPTION"
@@ -6395,7 +6395,7 @@ msgstr "지정 장소에 저장(&S):"
 
 #: tfrmoptionskeyboard.cblynxlike.caption
 msgid "Le&ft, Right arrows change directory (Lynx-like movement)"
-msgstr "왼쪽, 오른쪽 화살표로 폴더 변경(리눅스처럼) (&F)"
+msgstr "왼쪽, 오른쪽 화살표로 폴더 변경(리눅스처럼)(&F)"
 
 #: tfrmoptionskeyboard.gbtyping.caption
 msgid "Typing"
@@ -6517,7 +6517,7 @@ msgstr "명령 프롬프트창 표시(&R)"
 #: tfrmoptionslayout.cbtwodiskpanels.caption
 msgctxt "TFRMOPTIONSLAYOUT.CBTWODISKPANELS.CAPTION"
 msgid "Show two drive button bars (fi&xed width, above file windows)"
-msgstr "(파일창위에 고정폭으로)두 개의 버튼 바 표시"
+msgstr "(파일창위에 고정폭으로)두 개의 버튼 바 표시(&X)"
 
 #: tfrmoptionslayout.gbscreenlayout.caption
 msgctxt "TFRMOPTIONSLAYOUT.GBSCREENLAYOUT.CAPTION"
@@ -6626,7 +6626,7 @@ msgstr "적절한 경로 선택을 위한 기능"
 
 #: tfrmoptionsmisc.btnthumbcompactcache.caption
 msgid "&Remove thumbnails for no longer existing files"
-msgstr "더 이상 존재하지 않는 파일 썸네일 제거"
+msgstr "더 이상 존재하지 않는 파일 썸네일 제거(&R)"
 
 #: tfrmoptionsmisc.btnviewconfigfile.hint
 msgctxt "TFRMOPTIONSMISC.BTNVIEWCONFIGFILE.HINT"
@@ -6757,7 +6757,7 @@ msgstr "다른 운영체제나 팜(Palm)/포켓PC(PocketPC)처럼 외부 디바�
 #: tfrmoptionsplugins.lblwlxdescription.caption
 msgctxt "TFRMOPTIONSPLUGINS.LBLWLXDESCRIPTION.CAPTION"
 msgid "Vie&wer plugins allow one to display file formats like images, spreadsheets, databases etc. in Viewer (F3, Ctrl+Q)"
-msgstr "이미지, 스프레드 시트, 데이타베이스 &뷰어 플러그인 허용(F3, Ctrl+Q) (&W)"
+msgstr "이미지, 스프레드 시트, 데이타베이스 &뷰어 플러그인 허용(F3, Ctrl+Q)(&W)"
 
 #: tfrmoptionsplugins.stgplugins.columns[0].title.caption
 msgctxt "TFRMOPTIONSPLUGINS.STGPLUGINS.COLUMNS[0].TITLE.CAPTION"
@@ -6782,37 +6782,37 @@ msgstr "파일명"
 #: tfrmoptionsplugins.tsdsx.caption
 msgctxt "TFRMOPTIONSPLUGINS.TSDSX.CAPTION"
 msgid "&Search plugins (.DSX)"
-msgstr "검색 플러그인(.DSX) (&S)"
+msgstr "검색 플러그인(.DSX)(&S)"
 
 #: tfrmoptionsplugins.tswcx.caption
 msgctxt "TFRMOPTIONSPLUGINS.TSWCX.CAPTION"
 msgid "Pac&ker plugins (.WCX)"
-msgstr "압축 플러그인(.WCX) (&K)"
+msgstr "압축 플러그인(.WCX)(&K)"
 
 #: tfrmoptionsplugins.tswdx.caption
 msgctxt "TFRMOPTIONSPLUGINS.TSWDX.CAPTION"
 msgid "Content pl&ugins (.WDX)"
-msgstr "컨텐츠 플러그인(.WDX) (&U)"
+msgstr "컨텐츠 플러그인(.WDX)(&U)"
 
 #: tfrmoptionsplugins.tswfx.caption
 msgctxt "TFRMOPTIONSPLUGINS.TSWFX.CAPTION"
 msgid "F&ile system plugins (.WFX)"
-msgstr "파일 시스템 플러그인(.WFX) (&I)"
+msgstr "파일 시스템 플러그인(.WFX)(&I)"
 
 #: tfrmoptionsplugins.tswlx.caption
 msgctxt "TFRMOPTIONSPLUGINS.TSWLX.CAPTION"
 msgid "&Viewer plugins (.WLX)"
-msgstr "뷰어 플러그인(.WLX) (&V)"
+msgstr "뷰어 플러그인(.WLX)(&V)"
 
 #: tfrmoptionsquicksearchfilter.cbexactbeginning.caption
 msgctxt "TFRMOPTIONSQUICKSEARCHFILTER.CBEXACTBEGINNING.CAPTION"
 msgid "&Beginning (name must start with first typed character)"
-msgstr "첫 문자(입력한 첫글자로 반드시 시작되는 파일명) (&B)"
+msgstr "첫 문자(입력한 첫글자로 반드시 시작되는 파일명)(&B)"
 
 #: tfrmoptionsquicksearchfilter.cbexactending.caption
 msgctxt "TFRMOPTIONSQUICKSEARCHFILTER.CBEXACTENDING.CAPTION"
 msgid "En&ding (last character before a typed dot . must match)"
-msgstr "끝 문자(점(.)앞에 입력한 마지막 글자 일치) (&D)"
+msgstr "끝 문자(점(.)앞에 입력한 마지막 글자 일치)(&D)"
 
 #: tfrmoptionsquicksearchfilter.cgpoptions.caption
 msgctxt "TFRMOPTIONSQUICKSEARCHFILTER.CGPOPTIONS.CAPTION"
@@ -6838,12 +6838,12 @@ msgstr "탭 잠금이 해제될 때 바꾼뀐 파일명 유지"
 #: tfrmoptionstabs.cbtabsactivateonclick.caption
 msgctxt "TFRMOPTIONSTABS.CBTABSACTIVATEONCLICK.CAPTION"
 msgid "Activate target &panel when clicking on one of its Tabs"
-msgstr "탭 클릭시 대상 창 활성화 (&P)"
+msgstr "탭 클릭시 대상 창 활성화(&P)"
 
 #: tfrmoptionstabs.cbtabsalwaysvisible.caption
 msgctxt "TFRMOPTIONSTABS.CBTABSALWAYSVISIBLE.CAPTION"
 msgid "&Show tab header also when there is only one tab"
-msgstr "한개의 탭이 있을 때 탭 헤더 표시 (&S)"
+msgstr "한개의 탭이 있을 때 탭 헤더 표시(&S)"
 
 #: tfrmoptionstabs.cbtabscloseduplicatewhenclosing.caption
 msgid "Close duplicate tabs when closing application"
@@ -6852,7 +6852,7 @@ msgstr "프로그램 종료시 복제한 탭 닫기"
 #: tfrmoptionstabs.cbtabsconfirmcloseall.caption
 msgctxt "TFRMOPTIONSTABS.CBTABSCONFIRMCLOSEALL.CAPTION"
 msgid "Con&firm close all tabs"
-msgstr "모든 탭 닫기 확인 (&F)"
+msgstr "모든 탭 닫기 확인(&F)"
 
 #: tfrmoptionstabs.cbtabsconfirmcloselocked.caption
 msgid "Confirm close locked tabs"
@@ -6866,7 +6866,7 @@ msgstr "탭 이름 길이 제한(&L)"
 #: tfrmoptionstabs.cbtabslockedasterisk.caption
 msgctxt "TFRMOPTIONSTABS.CBTABSLOCKEDASTERISK.CAPTION"
 msgid "Show locked tabs &with an asterisk *"
-msgstr "잠금탭에 * 표시"
+msgstr "잠금탭에 * 표시(&W)"
 
 #: tfrmoptionstabs.cbtabsmultilines.caption
 msgctxt "TFRMOPTIONSTABS.CBTABSMULTILINES.CAPTION"
@@ -8361,7 +8361,7 @@ msgstr "플러그인 수정"
 
 #: tfrmtweakplugin.cbpk_caps_by_content.caption
 msgid "De&tect archive type by content"
-msgstr "내용에 의해 압축파일 감지"
+msgstr "내용에 의해 압축파일 감지(&T)"
 
 #: tfrmtweakplugin.cbpk_caps_delete.caption
 msgid "Can de&lete files"
@@ -8373,7 +8373,7 @@ msgstr "암호화 지원(&N)"
 
 #: tfrmtweakplugin.cbpk_caps_hide.caption
 msgid "Sho&w as normal files (hide packer icon)"
-msgstr "일반 파일로서 표시(압축파일 아이콘 감추기) (&W)"
+msgstr "일반 파일로서 표시(압축파일 아이콘 감추기)(&W)"
 
 #: tfrmtweakplugin.cbpk_caps_mempack.caption
 msgid "Supports pac&king in memory"
@@ -10640,7 +10640,7 @@ msgstr "확인을 위해 비밀번호를 다시 입력하세요:"
 
 #: ulng.rsmsgpopuphotadd
 msgid "&Add %s"
-msgstr "추가 %s (&A)"
+msgstr "추가 %s(&A)"
 
 #: ulng.rsmsgpopuphotcnf
 msgctxt "ulng.rsmsgpopuphotcnf"
@@ -11590,15 +11590,15 @@ msgstr "등록"
 
 #: ulng.rsoptsearchcase
 msgid "&Sensitive;&Insensitive"
-msgstr "&대소문자 구분;&대소문자 구분 안함"
+msgstr "대소문자 구분(&S);대소문자 구분 안함(&I)"
 
 #: ulng.rsoptsearchitems
 msgid "&Files;Di&rectories;Files a&nd Directories"
-msgstr "&파일;&폴더;파일&과 폴더"
+msgstr "파일(&F);폴더(&R);파일과 폴더(&N)"
 
 #: ulng.rsoptsearchopt
 msgid "&Hide filter panel when not focused;Keep saving setting modifications for next session"
-msgstr "포커스되지 않으면 &필터창 감추기; 다음 세션을 위해 설정 저장 유지"
+msgstr "포커스되지 않으면 필터창 감추기(&H); 다음 세션을 위해 설정 저장 유지"
 
 #: ulng.rsoptsortcasesens
 msgid "not case sensitive;according to locale settings (aAbBcC);first upper then lower case (ABCabc)"
@@ -11618,7 +11618,7 @@ msgstr "최상위;최하위;"
 
 #: ulng.rsopttoolbarbuttontype
 msgid "S&eparator;Inte&rnal command;E&xternal command;Men&u"
-msgstr "&구분자;&내부 명령어;&외부 명령어;메&뉴"
+msgstr "구분자(&E);내부 명령어(&R);외부 명령어(&X);메뉴(&U)"
 
 #: ulng.rsopttypeofduplicatedrename
 msgid "DC legacy - Copy (x) filename.ext;Windows - filename (x).ext;Other - filename(x).ext"
@@ -11701,7 +11701,7 @@ msgstr "폴더(디렉토리) 선택"
 
 #: ulng.rsshowhelpfor
 msgid "&Show help for %s"
-msgstr "%s 도움말 표시"
+msgstr "%s 도움말 표시(&S)"
 
 #: ulng.rssimplewordall
 msgctxt "ulng.rssimplewordall"
