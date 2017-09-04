@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.7.8 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2017-07-08 07:12+0900\n"
+"PO-Revision-Date: 2017-09-05 06:27+0900\n"
 "Last-Translator: Sangjin <comsem1104@naver.com>\n"
 "Language-Team: Language <email@address>\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +81,7 @@ msgstr "공간 리버스(&R)"
 
 #: tfilesystemcopymoveoperationoptionsui.chkverify.caption
 msgid "&Verify"
-msgstr ""
+msgstr "확인(&V)"
 
 #: tfilesystemcopymoveoperationoptionsui.cmbsetpropertyerror.hint
 msgid "What to do when cannot set file time, attributes, etc."
@@ -785,7 +785,7 @@ msgstr "시퀀스에 마지막 단축키 제거"
 
 #: tfrmedithotkey.btnselectfromlist.hint
 msgid "Select shortcut from list of remaining free available keys"
-msgstr ""
+msgstr "남아있는 키 중에서 단축키 선택"
 
 #: tfrmedithotkey.cghkcontrols.caption
 msgctxt "TFRMEDITHOTKEY.CGHKCONTROLS.CAPTION"
@@ -872,7 +872,7 @@ msgstr "다음 찾기"
 #: tfrmeditor.acteditfindprevious.caption
 msgctxt "tfrmeditor.acteditfindprevious.caption"
 msgid "Find previous"
-msgstr ""
+msgstr "이전 찾기"
 
 #: tfrmeditor.acteditgotoline.caption
 msgctxt "tfrmeditor.acteditgotoline.caption"
@@ -1281,7 +1281,7 @@ msgstr "SUID"
 
 #: tfrmfileproperties.chkexecutable.caption
 msgid "Allow &executing file as program"
-msgstr ""
+msgstr "파일을 프로그램처럼 실행 허용(&E)"
 
 #: tfrmfileproperties.gbowner.caption
 msgctxt "TFRMFILEPROPERTIES.GBOWNER.CAPTION"
@@ -1324,6 +1324,7 @@ msgid "???"
 msgstr "???"
 
 #: tfrmfileproperties.lblcontainsstr.caption
+#, fuzzy
 msgid "Contains:"
 msgstr "Contains:"
 
@@ -1334,7 +1335,7 @@ msgstr "실행"
 
 #: tfrmfileproperties.lblexecutable.caption
 msgid "Execute:"
-msgstr ""
+msgstr "실행:"
 
 #: tfrmfileproperties.lblfile.caption
 msgctxt "TFRMFILEPROPERTIES.LBLFILE.CAPTION"
@@ -1458,7 +1459,7 @@ msgstr "파일속성"
 
 #: tfrmfileproperties.tsimage.caption
 msgid "Image"
-msgstr ""
+msgstr "이미지"
 
 #: tfrmfileproperties.tsproperties.caption
 msgctxt "TFRMFILEPROPERTIES.TSPROPERTIES.CAPTION"
@@ -1472,7 +1473,7 @@ msgstr "취소(&A)"
 
 #: tfrmfinddlg.actcancelclose.caption
 msgid "Cancel search and close window"
-msgstr ""
+msgstr "검색을 끝내고 창 닫기"
 
 #: tfrmfinddlg.actclose.caption
 msgctxt "tfrmfinddlg.actclose.caption"
@@ -1482,7 +1483,7 @@ msgstr "닫기(&C)"
 #: tfrmfinddlg.actconfigfilesearchhotkeys.caption
 msgctxt "tfrmfinddlg.actconfigfilesearchhotkeys.caption"
 msgid "Configuration of hot keys"
-msgstr ""
+msgstr "단축키 설정"
 
 #: tfrmfinddlg.actedit.caption
 msgctxt "tfrmfinddlg.actedit.caption"
@@ -1496,11 +1497,11 @@ msgstr "목록상자에 적용(&L)"
 
 #: tfrmfinddlg.actfreefrommem.caption
 msgid "Cancel search, close and free from memory"
-msgstr ""
+msgstr "검색을 끝내고 메모리 반환"
 
 #: tfrmfinddlg.actfreefrommemallothers.caption
 msgid "For all other \"Find files\", cancel, close and free from memory"
-msgstr ""
+msgstr "모든 검색을 끝내고 메모리 반환"
 
 #: tfrmfinddlg.actgotofile.caption
 msgctxt "tfrmfinddlg.actgotofile.caption"
@@ -10082,7 +10083,7 @@ msgid "You can not copy/move a file \"%s\" to itself!"
 msgstr "\"%s\"파일 자체를 복사/이동할 수 없습니다."
 
 #: ulng.rsmsgcannotdeletedirectory
-#, fuzzy,badformat
+#, fuzzy
 msgid "Cannot delete directory %s"
 msgstr "폴더(디렉토리)삭제 할 수 없음"
 
@@ -10239,7 +10240,7 @@ msgid "Error writing to file"
 msgstr "파일에 쓰기 오류"
 
 #: ulng.rsmsgerrforcedir
-#, fuzzy,badformat
+#, fuzzy
 msgid "Can not create directory %s!"
 msgstr "폴더(디렉토리)를 생성할 수 없음!"
 
@@ -10671,7 +10672,7 @@ msgid "This is not a valid plugin!"
 msgstr "유효한 플러그인 아님!"
 
 #: ulng.rsmsginvalidpluginarchitecture
-#, fuzzy,badformat
+#, fuzzy
 msgid "This plugin is built for Double Commander for %s.%sIt can not work with Double Commander for %s!"
 msgstr "이것은 더블커맨더 %를 위한 플러그인입니다!"
 
@@ -12381,4 +12382,3 @@ msgstr "바꾸기한 갯수: %d 개"
 #: ulng.rszeroreplacement
 msgid "No replacement took place."
 msgstr "바꾸기 없음."
-
