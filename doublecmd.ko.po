@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.7.8 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2017-12-07 16:59+0900\n"
+"PO-Revision-Date: 2017-12-07 17:04+0900\n"
 "Last-Translator: Sangjin <comsem1104@naver.com>\n"
 "Language-Team: Language <email@address>\n"
 "MIME-Version: 1.0\n"
@@ -11598,7 +11598,7 @@ msgstr "파일(&F);폴더(&R);파일과 폴더(&N)"
 
 #: ulng.rsoptsearchopt
 msgid "&Hide filter panel when not focused;Keep saving setting modifications for next session"
-msgstr "포커스되지 않으면 필터창 감추기(&H); 다음 세션을 위해 설정 저장 유지"
+msgstr "포커스되지 않으면 필터창 감추기(&H);다음 세션을 위해 설정 저장 유지"
 
 #: ulng.rsoptsortcasesens
 msgid "not case sensitive;according to locale settings (aAbBcC);first upper then lower case (ABCabc)"
