@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.7.8 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2017-12-07 17:04+0900\n"
+"PO-Revision-Date: 2017-12-07 17:09+0900\n"
 "Last-Translator: Sangjin <comsem1104@naver.com>\n"
 "Language-Team: Language <email@address>\n"
 "MIME-Version: 1.0\n"
@@ -11245,7 +11245,7 @@ msgstr "처음;마지막;"
 
 #: ulng.rsoptconfigsortorder
 msgid "Classic, legacy order;Alphabetic order (but language still first)"
-msgstr "종류별, 일반적인 순서; 알파뱃 순서 (이름순 우선)"
+msgstr "종류별, 일반적인 순서;알파벳 순서 (이름순 우선)"
 
 #: ulng.rsoptdifferframeposition
 msgid "Active frame panel on left, inactive on right (legacy);Left frame panel on left, right on right"
@@ -11266,7 +11266,7 @@ msgstr "확장자 입력"
 
 #: ulng.rsoptfavoritetabswheretoaddinlist
 msgid "Add at beginning;Add at the end;Alphabetical sort"
-msgstr "시작에 추가; 마지막에 추가; 알파벳순 정렬"
+msgstr "시작에 추가;마지막에 추가;알파벳순 정렬"
 
 #: ulng.rsoptfileoperationsprogresskind
 msgid "separate window;minimized separate window;operations panel"
