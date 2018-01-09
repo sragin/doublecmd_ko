@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Native-Language: 한국어\n"
 "Language: ko\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.5\n"
 
 #: fsyncdirsdlg.rscomparingpercent
 msgid "Comparing... %d%% (ESC to cancel)"
@@ -4034,7 +4034,7 @@ msgstr "(탭)정렬(&G)"
 
 #: tfrmoptionsbriefview.rbdirectly.caption
 msgid "di&rectly after filename"
-msgstr "파일명 뒤에 폴더명(&R)"
+msgstr "파일명 바로 뒤에(&R)"
 
 #: tfrmoptionsbriefview.rbuseautosize.caption
 msgid "Auto"
@@ -6003,7 +6003,7 @@ msgstr "구분된 쓰레드에 파일 목록 리스트 불러오기(&F)"
 #: tfrmoptionsfilesviews.cbloadiconsseparately.caption
 msgctxt "TFRMOPTIONSFILESVIEWS.CBLOADICONSSEPARATELY.CAPTION"
 msgid "Load icons af&ter file list"
-msgstr "파일 목록 뒤에 아이콘 불어오기(&T)"
+msgstr "파일 목록 뒤에 아이콘 불러오기(&T)"
 
 #: tfrmoptionsfilesviews.cbshowsystemfiles.caption
 msgctxt "TFRMOPTIONSFILESVIEWS.CBSHOWSYSTEMFILES.CAPTION"
@@ -10240,7 +10240,7 @@ msgid "Error writing to file"
 msgstr "파일에 쓰기 오류"
 
 #: ulng.rsmsgerrforcedir
-#, fuzzy
+#, fuzzy,badformat
 msgid "Can not create directory %s!"
 msgstr "폴더(디렉토리)를 생성할 수 없음!"
 
@@ -10672,7 +10672,7 @@ msgid "This is not a valid plugin!"
 msgstr "유효한 플러그인 아님!"
 
 #: ulng.rsmsginvalidpluginarchitecture
-#, fuzzy
+#, fuzzy,badformat
 msgid "This plugin is built for Double Commander for %s.%sIt can not work with Double Commander for %s!"
 msgstr "이것은 더블커맨더 %를 위한 플러그인입니다!"
 
@@ -11422,7 +11422,7 @@ msgstr "처음;마지막;"
 
 #: ulng.rsoptconfigsortorder
 msgid "Classic, legacy order;Alphabetic order (but language still first)"
-msgstr "종류별, 일반적인 순서; 알파뱃 순서 (이름순 우선)"
+msgstr "종류별, 일반적인 순서;알파벳 순서 (이름순 우선)"
 
 #: ulng.rsoptdifferframeposition
 msgid "Active frame panel on left, inactive on right (legacy);Left frame panel on left, right on right"
@@ -11443,7 +11443,7 @@ msgstr "확장자 입력"
 
 #: ulng.rsoptfavoritetabswheretoaddinlist
 msgid "Add at beginning;Add at the end;Alphabetical sort"
-msgstr "시작에 추가; 마지막에 추가; 알파벳순 정렬"
+msgstr "시작에 추가;마지막에 추가;알파벳순 정렬"
 
 #: ulng.rsoptfileoperationsprogresskind
 msgid "separate window;minimized separate window;operations panel"
@@ -11799,7 +11799,7 @@ msgstr "파일(&F);폴더(&R);파일과 폴더(&N)"
 
 #: ulng.rsoptsearchopt
 msgid "&Hide filter panel when not focused;Keep saving setting modifications for next session"
-msgstr "포커스되지 않으면 필터창 감추기(&H); 다음 세션을 위해 설정 저장 유지"
+msgstr "포커스되지 않으면 필터창 감추기(&H);다음 세션을 위해 설정 저장 유지"
 
 #: ulng.rsoptsortcasesens
 msgid "not case sensitive;according to locale settings (aAbBcC);first upper then lower case (ABCabc)"
