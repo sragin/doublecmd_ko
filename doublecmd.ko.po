@@ -1,17 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Double Commander 0.7.8 beta\n"
+"Project-Id-Version: Double Commander 0.8.1 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2017-09-05 06:27+0900\n"
-"Last-Translator: Sangjin <comsem1104@naver.com>\n"
-"Language-Team: Language <email@address>\n"
+"PO-Revision-Date: 2018-01-23 02:13+0900\n"
+"Pre-Translator: Sangjin <comsem1104@naver.com>\n"
+"Last-Translator: Jongpil <sragin@naver.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Native-Language: 한국어\n"
 "Language: ko\n"
 "X-Generator: Poedit 2.0.5\n"
+"Language-Team: \n"
 
 #: fsyncdirsdlg.rscomparingpercent
 msgid "Comparing... %d%% (ESC to cancel)"
@@ -23,7 +24,7 @@ msgstr "오른쪽: %d개 파일 삭제"
 
 #: fsyncdirsdlg.rsfilesfound
 msgid "Files found: %d  (Identical: %d, Different: %d, Unique left: %d, Unique right: %d)"
-msgstr "파일 찾음; %d (동일: %d, 다름: %d, 왼쪽 유일함: %d, 오른쪽 유일함: %d)"
+msgstr "파일 찾음: %d  (동일: %d, 다름: %d, 왼쪽 유일함: %d, 오른쪽 유일함: %d)"
 
 #: fsyncdirsdlg.rslefttorightcopy
 msgid "Left to Right: Copy %d files, total size: %d bytes"
@@ -65,7 +66,7 @@ msgstr "링크 수정(&K)"
 #: tfilesystemcopymoveoperationoptionsui.cbdropreadonlyflag.caption
 msgctxt "TFILESYSTEMCOPYMOVEOPERATIONOPTIONSUI.CBDROPREADONLYFLAG.CAPTION"
 msgid "Drop readonly fla&g"
-msgstr "읽기전용 변경(&G)"
+msgstr "읽기전용속성 제거(&G)"
 
 #: tfilesystemcopymoveoperationoptionsui.cbexcludeemptydirectories.caption
 msgid "E&xclude empty directories"
@@ -1493,7 +1494,7 @@ msgstr "편집(&E)"
 #: tfrmfinddlg.actfeedtolistbox.caption
 msgctxt "tfrmfinddlg.actfeedtolistbox.caption"
 msgid "Feed to &listbox"
-msgstr "목록상자에 적용(&L)"
+msgstr "목록창에 입력(&L)"
 
 #: tfrmfinddlg.actfreefrommem.caption
 msgid "Cancel search, close and free from memory"
@@ -1506,7 +1507,7 @@ msgstr "모든 검색을 끝내고 메모리 반환"
 #: tfrmfinddlg.actgotofile.caption
 msgctxt "tfrmfinddlg.actgotofile.caption"
 msgid "&Go to file"
-msgstr "파일로 가기(&G)"
+msgstr "파일로 이동(&G)"
 
 #: tfrmfinddlg.actintellifocus.caption
 msgctxt "tfrmfinddlg.actintellifocus.caption"
@@ -1516,12 +1517,12 @@ msgstr "자료 찾기"
 #: tfrmfinddlg.actlastsearch.caption
 msgctxt "tfrmfinddlg.actlastsearch.caption"
 msgid "&Last search"
-msgstr "마지막 검색(&L)"
+msgstr "마지막 찾기(&L)"
 
 #: tfrmfinddlg.actnewsearch.caption
 msgctxt "tfrmfinddlg.actnewsearch.caption"
 msgid "&New search"
-msgstr "새 검색(&N)"
+msgstr "새로 찾기(&N)"
 
 #: tfrmfinddlg.actnewsearchclearfilters.caption
 msgid "New search (clear filters)"
@@ -1595,11 +1596,11 @@ msgstr "저장(&A)"
 
 #: tfrmfinddlg.btnsearchsavewithstartingpath.caption
 msgid "Sa&ve with \"Start in directory\""
-msgstr "시작 폴더 저장(&V)"
+msgstr "\"찾기 시작할 디렉토리\" 저장(&V)"
 
 #: tfrmfinddlg.btnsearchsavewithstartingpath.hint
 msgid "If saved then \"Start in directory\" will be restored when loading template. Use it if you want to fix searching to a certain directory"
-msgstr "만약 \"시작 폴더\"에 템플릿이 로딩되면 복구됨. 특정 폴더 검색을 수정하기 위해 사용."
+msgstr "\"찾기 시작할 디렉토리\"와 검색 조건을 같이 저장"
 
 #: tfrmfinddlg.btnusetemplate.caption
 msgid "Use template"
@@ -1608,27 +1609,27 @@ msgstr "템플릿 사용"
 #: tfrmfinddlg.caption
 msgctxt "TFRMFINDDLG.CAPTION"
 msgid "Find files"
-msgstr "찾은 파일"
+msgstr "파일 찾기"
 
 #: tfrmfinddlg.cbcasesens.caption
 msgid "Case sens&itive"
-msgstr "대소 문자 구분(&I)"
+msgstr "대소문자 구분(&I)"
 
 #: tfrmfinddlg.cbdatefrom.caption
 msgid "&Date from:"
-msgstr "날짜부터(&D):"
+msgstr "이날짜부터(&D):"
 
 #: tfrmfinddlg.cbdateto.caption
 msgid "Dat&e to:"
-msgstr "날짜까지(&E):"
+msgstr "이날짜까지(&E):"
 
 #: tfrmfinddlg.cbfilesizefrom.caption
 msgid "S&ize from:"
-msgstr "크기부터(&I):"
+msgstr "최소크기(&I):"
 
 #: tfrmfinddlg.cbfilesizeto.caption
 msgid "Si&ze to:"
-msgstr "크기까지(&Z):"
+msgstr "최대크기(&Z):"
 
 #: tfrmfinddlg.cbfindinarchive.caption
 msgid "Search in &archives"
@@ -1637,7 +1638,7 @@ msgstr "압축파일에서 찾기(&A)"
 #: tfrmfinddlg.cbfindtext.caption
 msgctxt "TFRMFINDDLG.CBFINDTEXT.CAPTION"
 msgid "Find &text in file"
-msgstr "파일의 텍스트에서 찾기(&T)"
+msgstr "문자열 찾기(&T)"
 
 #: tfrmfinddlg.cbfollowsymlinks.caption
 msgctxt "TFRMFINDDLG.CBFOLLOWSYMLINKS.CAPTION"
@@ -1647,24 +1648,24 @@ msgstr "심볼릭 링크 따라가기(&Y)"
 #: tfrmfinddlg.cbnotcontainingtext.caption
 msgctxt "TFRMFINDDLG.CBNOTCONTAININGTEXT.CAPTION"
 msgid "Find files N&OT containing the text"
-msgstr "문자열 포함하지 않은 파일 찾기(&O)"
+msgstr "문자열이 없는 파일 찾기(&O)"
 
 #: tfrmfinddlg.cbnotolderthan.caption
 msgid "N&ot older than:"
-msgstr "오래되지 않은(&O):"
+msgstr "다음 이내(&O):"
 
 #: tfrmfinddlg.cbopenedtabs.caption
 msgid "Opened tabs"
-msgstr ""
+msgstr "열린 탭에서 찾기"
 
 #: tfrmfinddlg.cbpartialnamesearch.caption
 msgid "Searc&h for part of file name"
-msgstr "파일명에서 찾기(&H)"
+msgstr "파일 이름 패턴 검색(&H)"
 
 #: tfrmfinddlg.cbregexp.caption
 msgctxt "TFRMFINDDLG.CBREGEXP.CAPTION"
 msgid "&Regular expression"
-msgstr "정규식(&R)"
+msgstr "정규표현식(&R)"
 
 #: tfrmfinddlg.cbreplacetext.caption
 msgid "Re&place by"
@@ -1676,15 +1677,15 @@ msgstr "선택된 파일과 폴더(&F)"
 
 #: tfrmfinddlg.cbtextregexp.caption
 msgid "Regular &expression"
-msgstr "정규식(&E)"
+msgstr "정규표현식(&E)"
 
 #: tfrmfinddlg.cbtimefrom.caption
 msgid "&Time from:"
-msgstr "시간부터(&T):"
+msgstr "이시간부터(&T):"
 
 #: tfrmfinddlg.cbtimeto.caption
 msgid "Ti&me to:"
-msgstr "시간까지(&M):"
+msgstr "이시간까지(&M):"
 
 #: tfrmfinddlg.cbuseplugin.caption
 msgid "&Use search plugin:"
@@ -1705,7 +1706,7 @@ msgstr "\";\"로 구분된 파일명 입력"
 #: tfrmfinddlg.gbdirectories.caption
 msgctxt "TFRMFINDDLG.GBDIRECTORIES.CAPTION"
 msgid "Directories"
-msgstr "새 폴더"
+msgstr "디렉토리"
 
 #: tfrmfinddlg.gbfiles.caption
 msgctxt "TFRMFINDDLG.GBFILES.CAPTION"
@@ -1729,11 +1730,11 @@ msgstr "인코딩(&G):"
 
 #: tfrmfinddlg.lblexcludedirectories.caption
 msgid "E&xclude subdirectories"
-msgstr "하위 폴더 제외(&X)"
+msgstr "제외할 하위 디렉토리(&X)"
 
 #: tfrmfinddlg.lblexcludefiles.caption
 msgid "&Exclude files"
-msgstr "파일 제외(&E)"
+msgstr "제외할 파일(&E)"
 
 #: tfrmfinddlg.lblfindfilemask.caption
 msgid "&File mask"
@@ -1741,11 +1742,11 @@ msgstr "찾을 파일(&F)"
 
 #: tfrmfinddlg.lblfindpathstart.caption
 msgid "Start in &directory"
-msgstr "검색 폴더(&D)"
+msgstr "찾기 시작할 디렉토리(&D)"
 
 #: tfrmfinddlg.lblsearchdepth.caption
 msgid "Search su&bdirectories:"
-msgstr "하위 디랙토리 검색(&B):"
+msgstr "하위 디렉토리 찾기(&B):"
 
 #: tfrmfinddlg.lbltemplateheader.caption
 msgid "&Previous searches:"
@@ -1818,7 +1819,7 @@ msgstr "플러그인"
 
 #: tfrmfinddlg.tsresults.caption
 msgid "Results"
-msgstr "결과"
+msgstr "검색 결과"
 
 #: tfrmfinddlg.tsstandard.caption
 msgid "Standard"
@@ -5713,7 +5714,7 @@ msgstr "복사 작업(&Y)"
 
 #: tfrmoptionsfileoperations.cbdeleteconfirmation.caption
 msgid "&Delete operation"
-msgstr "삭제 연산(&D)"
+msgstr "삭제 작업(&D)"
 
 #: tfrmoptionsfileoperations.cbdeletetotrash.caption
 msgid "Dele&te to recycle bin (Shift key reverses this setting)"
@@ -5726,23 +5727,23 @@ msgstr "휴지통으로 삭제(&E)"
 #: tfrmoptionsfileoperations.cbdropreadonlyflag.caption
 msgctxt "TFRMOPTIONSFILEOPERATIONS.CBDROPREADONLYFLAG.CAPTION"
 msgid "D&rop readonly flag"
-msgstr "읽기 전용 지정(&R)"
+msgstr "읽기전용 속성 제거(&R)"
 
 #: tfrmoptionsfileoperations.cbmoveconfirmation.caption
 msgid "&Move operation"
-msgstr "파일 이동 연산(&M)"
+msgstr "이동 작업(&M)"
 
 #: tfrmoptionsfileoperations.cbprocesscomments.caption
 msgid "&Process comments with files/folders"
-msgstr "파일/폴더에 프로세스 코멘트(&P)"
+msgstr "주석도 함께 복사(&P)"
 
 #: tfrmoptionsfileoperations.cbrenameselonlyname.caption
 msgid "Select &file name without extension when renaming"
-msgstr "파일명 바꿀 때 확장자가 없는 파일 선택(&F)"
+msgstr "파일이름 바꿀 때 확장자 빼고 선택(&F)"
 
 #: tfrmoptionsfileoperations.cbshowcopytabselectpanel.caption
 msgid "Sho&w tab select panel in copy/move dialog"
-msgstr "복사/이동 대화상자에 선택된 탭 표시(&W)"
+msgstr "복사/이동 대화상자에 탭 선택창 표시(&W)"
 
 #: tfrmoptionsfileoperations.cbskipfileoperror.caption
 msgid "S&kip file operations errors and write them to log window"
@@ -5766,16 +5767,16 @@ msgstr "해시 계산 버퍼 크기 (KB단위)(&H):"
 
 #: tfrmoptionsfileoperations.lblprogresskind.caption
 msgid "Show operations progress &initially in"
-msgstr "작업 프로세스 시작 지점 표시(&I)"
+msgstr "처음에 작업 진행률을 다음 위치에 표시(&I)"
 
 #: tfrmoptionsfileoperations.lbltypeofduplicatedrename.caption
 msgctxt "TFRMOPTIONSFILEOPERATIONS.LBLTYPEOFDUPLICATEDRENAME.CAPTION"
 msgid "Duplicated name auto-rename style:"
-msgstr "파일명 복제 자동 이름 바꾸기 스타일:"
+msgstr "같은 파일이름이 있을 때 바꿀이름 스타일:"
 
 #: tfrmoptionsfileoperations.lblwipepassnumber.caption
 msgid "&Number of wipe passes:"
-msgstr "삭제한 숫자(&N):"
+msgstr "완전삭제 단계 설정(&N):"
 
 #: tfrmoptionsfilepanelscolors.btnbackcolor.caption
 msgctxt "TFRMOPTIONSFILEPANELSCOLORS.BTNBACKCOLOR.CAPTION"
@@ -5924,30 +5925,30 @@ msgstr "텍스트 색상(&E):"
 
 #: tfrmoptionsfilesearch.cbinitiallyclearfilemask.caption
 msgid "When launching file search, clear file mask filter"
-msgstr ""
+msgstr "파일 찾기를 실행할 때, 이전 검색 조건을 초기화"
 
 #: tfrmoptionsfilesearch.cbpartialnamesearch.caption
 msgctxt "tfrmoptionsfilesearch.cbpartialnamesearch.caption"
 msgid "&Search for part of file name"
-msgstr "파일명 일부에서 검색(&S)"
+msgstr "파일 이름 패턴 검색(&S)"
 
 #: tfrmoptionsfilesearch.cbshowmenubarinfindfiles.caption
 msgid "Show menu bar in \"Find files\""
-msgstr ""
+msgstr "\"파일 찾기\"에서 메뉴막대 보이기"
 
 #: tfrmoptionsfilesearch.dbtextsearch.caption
 msgctxt "tfrmoptionsfilesearch.dbtextsearch.caption"
 msgid "Text search in files"
-msgstr "파일에서 텍스트 검색"
+msgstr "파일에서 글자 찾기"
 
 #: tfrmoptionsfilesearch.gbfilesearch.caption
 msgctxt "tfrmoptionsfilesearch.gbfilesearch.caption"
 msgid "File search"
-msgstr "파일 검색"
+msgstr "파일 찾기"
 
 #: tfrmoptionsfilesearch.lblnewsearchfilters.caption
 msgid "Current filters with \"New search\" button:"
-msgstr ""
+msgstr "\"새 찾기\"를 누를 때 현재 검색 조건:"
 
 #: tfrmoptionsfilesearch.lblsearchdefaulttemplate.caption
 msgctxt "tfrmoptionsfilesearch.lblsearchdefaulttemplate.caption"
@@ -5957,12 +5958,12 @@ msgstr "기본 검색 템플릿:"
 #: tfrmoptionsfilesearch.rbusemmapinsearch.caption
 msgctxt "tfrmoptionsfilesearch.rbusemmapinsearch.caption"
 msgid "Use memory mapping for search te&xt in files"
-msgstr "파일 텍스트 검색을 위해 메모리 매핑 사용(&X)"
+msgstr "파일에서 글자를 찾기위해 메모리 매핑을 사용(&X)"
 
 #: tfrmoptionsfilesearch.rbusestreaminsearch.caption
 msgctxt "tfrmoptionsfilesearch.rbusestreaminsearch.caption"
 msgid "&Use stream for search text in files"
-msgstr "파일 텍스트 검색을 위해 스트림 사용(&U)"
+msgstr "파일에서 글자를 찾기위해 스트림을 사용(&U)"
 
 #: tfrmoptionsfilesviews.btnaddattribute.caption
 msgctxt "tfrmoptionsfilesviews.btnaddattribute.caption"
@@ -5970,7 +5971,6 @@ msgid "&Add"
 msgstr "더하기(&A)"
 
 #: tfrmoptionsfilesviews.btnattrshelp.caption
-#, fuzzy
 msgctxt "tfrmoptionsfilesviews.btnattrshelp.caption"
 msgid "&Help"
 msgstr "도움말(&H)"
@@ -8063,15 +8063,15 @@ msgstr "검색 또는 필터 on/off 토글버튼"
 
 #: tfrmsearchplugin.btnadd.caption
 msgid "&More rules"
-msgstr "더 많은 규칙(&M)"
+msgstr "규칙 추가(&M)"
 
 #: tfrmsearchplugin.btndelete.caption
 msgid "L&ess rules"
-msgstr "적은 규칙(&E)"
+msgstr "규칙 제거(&E)"
 
 #: tfrmsearchplugin.chkuseplugins.caption
 msgid "Use &content plugins, combine with:"
-msgstr "플러그인 사용, 함께 결합(&C):"
+msgstr "플러그인 사용(&C), 규칙간 관계:"
 
 #: tfrmsearchplugin.headercontrol.sections[0].text
 msgctxt "TFRMSEARCHPLUGIN.HEADERCONTROL.SECTIONS[0].TEXT"
@@ -8093,11 +8093,11 @@ msgstr "값"
 
 #: tfrmsearchplugin.rband.caption
 msgid "&AND (all match)"
-msgstr "AND (모두 일치) (&A)"
+msgstr "&AND (모두 일치)"
 
 #: tfrmsearchplugin.rbor.caption
 msgid "&OR (any match)"
-msgstr "OR (하나라도 일치) (&O)"
+msgstr "&OR (하나라도 일치)"
 
 #: tfrmselecttextrange.btppanel.cancelbutton.caption
 msgctxt "TFRMSELECTTEXTRANGE.BTPPANEL.CANCELBUTTON.CAPTION"
@@ -10240,7 +10240,7 @@ msgid "Error writing to file"
 msgstr "파일에 쓰기 오류"
 
 #: ulng.rsmsgerrforcedir
-#, fuzzy,badformat
+#, fuzzy
 msgid "Can not create directory %s!"
 msgstr "폴더(디렉토리)를 생성할 수 없음!"
 
@@ -10672,7 +10672,7 @@ msgid "This is not a valid plugin!"
 msgstr "유효한 플러그인 아님!"
 
 #: ulng.rsmsginvalidpluginarchitecture
-#, fuzzy,badformat
+#, fuzzy
 msgid "This plugin is built for Double Commander for %s.%sIt can not work with Double Commander for %s!"
 msgstr "이것은 더블커맨더 %를 위한 플러그인입니다!"
 
@@ -10778,7 +10778,7 @@ msgstr "새 파일"
 
 #: ulng.rsmsgnextvolunpack
 msgid "Next volume will be unpacked"
-msgstr "다음 파일이 압축해제될것입니다."
+msgstr "다음 파일이 압축해제될것입니다"
 
 #: ulng.rsmsgnofiles
 msgid "No files"
@@ -10798,7 +10798,7 @@ msgstr "드라이브에 공간이 부족합니다. 다시 시도할까요?"
 
 #: ulng.rsmsgnotdelete
 msgid "Can not delete file %s"
-msgstr "%s 파일을 삭제할 수 없습니다."
+msgstr "%s 파일을 삭제할 수 없습니다"
 
 #: ulng.rsmsgnotimplemented
 msgid "Not implemented."
@@ -10855,7 +10855,7 @@ msgstr "이 파일을 사용할 수 있게 하세요. 다시 시도할까요?"
 
 #: ulng.rsmsgrenamefavtabs
 msgid "Enter new friendly name for this Favorite Tabs"
-msgstr "이 즐겨찾기탭에 새로운 이름을 입력하세요."
+msgstr "이 즐겨찾기탭에 새로운 이름을 입력하세요"
 
 #: ulng.rsmsgrenamefavtabsmenu
 msgid "Enter new name for this menu"
@@ -10871,11 +10871,11 @@ msgstr "선택된 \"%s\" 이름 바꾸기/이동할까요?"
 
 #: ulng.rsmsgrestartforapplychanges
 msgid "Please, restart Double Commander in order to apply changes"
-msgstr "변경된 설정을 적용하려면 더블커맨더를 재실행하세요."
+msgstr "변경된 설정을 적용하려면 더블커맨더를 재실행하세요"
 
 #: ulng.rsmsgsekectfiletype
 msgid "Select to which file type to add extension \"%s\""
-msgstr "추가하려는 \"%s\" 파일확장자를 선택하세요."
+msgstr "추가하려는 \"%s\" 파일확장자를 선택하세요"
 
 #: ulng.rsmsgselectedinfo
 msgid "Selected: %s of %s, files: %d of %d, folders: %d of %d"
@@ -10891,7 +10891,7 @@ msgstr "체크섬 파일만 선택하세요!"
 
 #: ulng.rsmsgsellocnextvol
 msgid "Please select location of next volume"
-msgstr "다음 볼륨의 위치를 선택하세요."
+msgstr "다음 볼륨의 위치를 선택하세요"
 
 #: ulng.rsmsgsetvolumelabel
 msgid "Set volume label"
@@ -11023,7 +11023,7 @@ msgstr ""
 
 #: ulng.rsmsgtctoolbarwheretosave
 msgid "Enter location and filename where to save a TC Toolbar file"
-msgstr "TC 툴바 파일을 저장할 파일명과 위치를 입력하세요."
+msgstr "TC 툴바 파일을 저장할 파일명과 위치를 입력하세요"
 
 #: ulng.rsmsgthisisnowinclipboard
 msgid "\"%s\" is now in the clipboard"
@@ -11123,7 +11123,7 @@ msgstr ""
 
 #: ulng.rsnewsearchclearfilteroptions
 msgid "Keep;Clear;Prompt"
-msgstr ""
+msgstr "유지;초기화;사용자에게 물어보기"
 
 #: ulng.rsnoequivalentinternalcommand
 msgid "No internal equivalent command"
@@ -11353,7 +11353,6 @@ msgstr "작업중"
 
 #: ulng.rsoptaddfrommainpanel
 #, fuzzy
-#| msgid "Add at beginning;Add at the end;Smart add"
 msgid "Add at &beginning;Add at the end;Smart add"
 msgstr "시작에 추가;마지막에 추가;스마트 추가"
 
@@ -11447,7 +11446,7 @@ msgstr "시작에 추가;마지막에 추가;알파벳순 정렬"
 
 #: ulng.rsoptfileoperationsprogresskind
 msgid "separate window;minimized separate window;operations panel"
-msgstr "윈도 분리; 분리된 윈도 최소화; 작업수행창"
+msgstr "별도 창;별도 창을 최소화해서;작업 패널"
 
 #: ulng.rsoptfilesizeformat
 msgid "float;B;K;M;G"
@@ -11633,10 +11632,9 @@ msgid "File panels"
 msgstr "파일 패널"
 
 #: ulng.rsoptionseditorfilesearch
-#, fuzzy
 msgctxt "ulng.rsoptionseditorfilesearch"
 msgid "File search"
-msgstr "파일 검색"
+msgstr "파일 찾기"
 
 #: ulng.rsoptionseditorfilesviews
 msgid "Files views"
@@ -11823,7 +11821,7 @@ msgstr "구분자(&E);내부 명령어(&R);외부 명령어(&X);메뉴(&U)"
 
 #: ulng.rsopttypeofduplicatedrename
 msgid "DC legacy - Copy (x) filename.ext;Windows - filename (x).ext;Other - filename(x).ext"
-msgstr "DC 레거시(legacy) - 복사(x) 파일명.확장자; 윈도- 파일명(x).확장자; 그외 - 파일명(x).확장자"
+msgstr "DC 고전방법 - Copy (x) 파일명.확장자;Windows - 파일명 (x).확장자;그외 - 파일명(x).확장자"
 
 #: ulng.rsoptupdatedfilesposition
 msgid "don't change position;use the same setting as for new files;to sorted position"
