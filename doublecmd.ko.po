@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.8.1 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2018-01-23 02:13+0900\n"
+"PO-Revision-Date: 2018-01-26 00:22+0900\n"
 "Pre-Translator: Sangjin <comsem1104@naver.com>\n"
 "Last-Translator: Jongpil <sragin@naver.com>\n"
 "MIME-Version: 1.0\n"
@@ -1856,7 +1856,7 @@ msgstr "확인(&O)"
 
 #: tfrmhardlink.caption
 msgid "Create hard link"
-msgstr "복사본 만들기"
+msgstr "하드링크 생성"
 
 #: tfrmhardlink.lblexistingfile.caption
 msgctxt "TFRMHARDLINK.LBLEXISTINGFILE.CAPTION"
@@ -2260,7 +2260,7 @@ msgstr "목록의 마지막 파일에 커서 두기"
 #: tfrmmain.acthardlink.caption
 msgctxt "TFRMMAIN.ACTHARDLINK.CAPTION"
 msgid "Create &Hard Link..."
-msgstr "복사본 만들기(&H)..."
+msgstr "하드링크 생성(&H)..."
 
 #: tfrmmain.acthelpindex.caption
 msgid "&Contents"
@@ -2679,7 +2679,7 @@ msgstr "파일명 목록 보이지 않기 무시 가능/불가능"
 #: tfrmmain.actsymlink.caption
 msgctxt "TFRMMAIN.ACTSYMLINK.CAPTION"
 msgid "Create Symbolic &Link..."
-msgstr "바로 가기 생성(&L)..."
+msgstr "심볼릭 링크 생성(&L)..."
 
 #: tfrmmain.actsyncdirs.caption
 msgid "Synchronize dirs..."
@@ -3762,7 +3762,7 @@ msgstr "-"
 #: tfrmmultirename.stringgrid.columns[0].title.caption
 msgctxt "TFRMMULTIRENAME.STRINGGRID.COLUMNS[0].TITLE.CAPTION"
 msgid "Old File Name"
-msgstr "오래된 파일명"
+msgstr "현재 파일명"
 
 #: tfrmmultirename.stringgrid.columns[1].title.caption
 msgctxt "TFRMMULTIRENAME.STRINGGRID.COLUMNS[1].TITLE.CAPTION"
@@ -8396,7 +8396,7 @@ msgstr "확인(&O)"
 
 #: tfrmsymlink.caption
 msgid "Create symbolic link"
-msgstr "바로 가기 생성"
+msgstr "심볼릭 링크 생성"
 
 #: tfrmsymlink.lblexistingfile.caption
 msgctxt "TFRMSYMLINK.LBLEXISTINGFILE.CAPTION"
