@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.8.1 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2018-01-26 00:22+0900\n"
+"PO-Revision-Date: 2018-01-26 22:08+0900\n"
 "Pre-Translator: Sangjin <comsem1104@naver.com>\n"
 "Last-Translator: Jongpil <sragin@naver.com>\n"
 "MIME-Version: 1.0\n"
@@ -523,7 +523,7 @@ msgstr "첫 번째 차이점"
 
 #: tfrmdiffer.actignorecase.caption
 msgid "Ignore Case"
-msgstr "이 경우 무시"
+msgstr "대소문자 무시"
 
 #: tfrmdiffer.actignorewhitespace.caption
 msgid "Ignore Blanks"
@@ -726,11 +726,11 @@ msgstr "-"
 
 #: tfrmdiffer.miencodingleft.caption
 msgid "&Left"
-msgstr "왼쪽 방향키(&L)"
+msgstr "왼쪽(&L)"
 
 #: tfrmdiffer.miencodingright.caption
 msgid "&Right"
-msgstr "오른쪽 방향키(&R)"
+msgstr "오른쪽(&R)"
 
 #: tfrmdiffer.miseparator1.caption
 msgctxt "TFRMDIFFER.MISEPARATOR1.CAPTION"
