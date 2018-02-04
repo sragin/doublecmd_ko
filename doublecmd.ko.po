@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.8.1 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2018-01-26 22:08+0900\n"
+"PO-Revision-Date: 2018-02-04 23:40+0900\n"
 "Pre-Translator: Sangjin <comsem1104@naver.com>\n"
 "Last-Translator: Jongpil <sragin@naver.com>\n"
 "MIME-Version: 1.0\n"
@@ -301,7 +301,7 @@ msgstr "각각의 파일에 분리된 체크섬 파일 생성(&R)"
 
 #: tfrmchecksumcalc.lblsaveto.caption
 msgid "&Save checksum file(s) to:"
-msgstr "체크섬 파일 저장(&S):"
+msgstr "체크섬 파일명(&S):"
 
 #: tfrmchecksumverify.btnclose.caption
 msgctxt "TFRMCHECKSUMVERIFY.BTNCLOSE.CAPTION"
@@ -1898,11 +1898,11 @@ msgstr "..."
 #: tfrmlinker.caption
 msgctxt "TFRMLINKER.CAPTION"
 msgid "Linker"
-msgstr "링커"
+msgstr "파일 합치기"
 
 #: tfrmlinker.gbsaveto.caption
 msgid "Save to..."
-msgstr "..에 저장"
+msgstr "저장할 폴더"
 
 #: tfrmlinker.grbxcontrol.caption
 msgid "Item"
@@ -1916,12 +1916,12 @@ msgstr "파일명(&F)"
 #: tfrmlinker.spbtndown.caption
 msgctxt "TFRMLINKER.SPBTNDOWN.CAPTION"
 msgid "Do&wn"
-msgstr "아래(&W)"
+msgstr "아래로(&W)"
 
 #: tfrmlinker.spbtndown.hint
 msgctxt "TFRMLINKER.SPBTNDOWN.HINT"
 msgid "Down"
-msgstr "아래 방향키"
+msgstr "아래로"
 
 #: tfrmlinker.spbtnrem.caption
 msgctxt "TFRMLINKER.SPBTNREM.CAPTION"
@@ -1936,12 +1936,12 @@ msgstr "삭제"
 #: tfrmlinker.spbtnup.caption
 msgctxt "TFRMLINKER.SPBTNUP.CAPTION"
 msgid "&Up"
-msgstr "위 방향키(&U)"
+msgstr "위로(&U)"
 
 #: tfrmlinker.spbtnup.hint
 msgctxt "TFRMLINKER.SPBTNUP.HINT"
 msgid "Up"
-msgstr "위 방향키"
+msgstr "위로"
 
 #: tfrmmain.actabout.caption
 msgctxt "TFRMMAIN.ACTABOUT.CAPTION"
@@ -1954,7 +1954,7 @@ msgstr "명령줄에 파일명 추가"
 
 #: tfrmmain.actaddnewsearch.caption
 msgid "New search instance..."
-msgstr ""
+msgstr "새 파일 찾기..."
 
 #: tfrmmain.actaddpathandfilenametocmdline.caption
 msgid "Add path and file name to command line"
@@ -2761,7 +2761,7 @@ msgstr "로그파일 보기"
 
 #: tfrmmain.actviewsearches.caption
 msgid "View current search instances"
-msgstr ""
+msgstr "현재 찾기창 보기"
 
 #: tfrmmain.actvisithomepage.caption
 msgid "&Visit Double Commander Website"
@@ -3353,19 +3353,19 @@ msgstr "확인(&O)"
 
 #: tfrmmaskinputdlg.chkcasesensitive.caption
 msgid "Case sensitive"
-msgstr ""
+msgstr "대소문자 구분"
 
 #: tfrmmaskinputdlg.chkignoreaccentsandligatures.caption
 msgid "Ignore accents and ligatures"
-msgstr ""
+msgstr "강세기호와 합자 무시"
 
 #: tfrmmaskinputdlg.lblattributes.caption
 msgid "Attri&butes:"
-msgstr ""
+msgstr "속성(&B):"
 
 #: tfrmmaskinputdlg.lblprompt.caption
 msgid "Input Mask:"
-msgstr ""
+msgstr "마스크 입력:"
 
 #: tfrmmaskinputdlg.lblsearchtemplate.caption
 msgid "O&r select predefined selection type:"
@@ -4854,7 +4854,7 @@ msgstr "파일명, a-z"
 
 #: tfrmoptionsdirectoryhotlist.gbdirectoryhotlist.caption
 msgid "Directory Hotlist (reorder by drag && drop)"
-msgstr "즐겨찾기 디렉터리(드래그 && 드롭 재정렬)"
+msgstr "즐겨찾기 디렉터리(드래그 && 드롭으로 재정렬)"
 
 #: tfrmoptionsdirectoryhotlist.gbhotlistotheroptions.caption
 msgctxt "tfrmoptionsdirectoryhotlist.gbhotlistotheroptions.caption"
@@ -4988,10 +4988,8 @@ msgid "Tweak &target path"
 msgstr ""
 
 #: tfrmoptionsdirectoryhotlist.rgwheretoadd.caption
-#, fuzzy
-#| msgid "Addition from main panel:"
 msgid "Addition from main panel"
-msgstr "메인창에서 추가:"
+msgstr "메인창에서 추가"
 
 #: tfrmoptionsdragdrop.cbdraganddropaskformateachtime.caption
 msgid "From all the supported formats, ask which one to use every time"
@@ -8287,7 +8285,7 @@ msgstr "적절한 경로 선택을 위한 기능"
 #: tfrmsplitter.caption
 msgctxt "TFRMSPLITTER.CAPTION"
 msgid "Splitter"
-msgstr "구분자"
+msgstr "파일 쪼개기"
 
 #: tfrmsplitter.cbrequireacrc32verificationfile.caption
 msgid "Require a CRC32 verification file"
@@ -8304,11 +8302,11 @@ msgstr "파일명"
 
 #: tfrmsplitter.grbxsize.caption
 msgid "Size and number of parts"
-msgstr "부분의 크기와 숫자"
+msgstr "파일 크기와 개수"
 
 #: tfrmsplitter.lbdirtarget.caption
 msgid "Directory &target"
-msgstr "목표 폴더(&T)"
+msgstr "저장될 폴더(&T)"
 
 #: tfrmsplitter.lbfilesource.caption
 msgid "File &source"
@@ -8316,26 +8314,26 @@ msgstr "파일 소스(&S)"
 
 #: tfrmsplitter.lblnumberparts.caption
 msgid "&Number of parts"
-msgstr "부분 갯수(&N)"
+msgstr "나눌 갯수(&N)"
 
 #: tfrmsplitter.rbtnbyte.caption
 msgid "&Bytes"
-msgstr "바이트(&B)"
+msgstr ""
 
 #: tfrmsplitter.rbtngigab.caption
 msgctxt "TFRMSPLITTER.RBTNGIGAB.CAPTION"
 msgid "&Gigabytes"
-msgstr "기가바이트(&G)"
+msgstr ""
 
 #: tfrmsplitter.rbtnkilob.caption
 msgctxt "TFRMSPLITTER.RBTNKILOB.CAPTION"
 msgid "&Kilobytes"
-msgstr "킬로바이트(&K)"
+msgstr ""
 
 #: tfrmsplitter.rbtnmegab.caption
 msgctxt "TFRMSPLITTER.RBTNMEGAB.CAPTION"
 msgid "&Megabytes"
-msgstr "메가바이트(&M)"
+msgstr ""
 
 #: tfrmstartingsplash.caption
 msgctxt "TFRMSTARTINGSPLASH.CAPTION"
@@ -9692,10 +9690,8 @@ msgid "Exported_from_DC"
 msgstr "DC에서 내보내기된"
 
 #: ulng.rsfileopdirectoryexistsoptions
-#, fuzzy
-#| msgid "Ask;Overwrite;Copy into;Skip"
 msgid "Ask;Merge;Skip"
-msgstr "묻기;덮어쓰기;복사해 넣기;건너뛰기"
+msgstr "묻기;복사해 넣기;건너뛰기"
 
 #: ulng.rsfileopfileexistsoptions
 msgid "Ask;Overwrite;Overwrite Older;Skip"
@@ -9958,7 +9954,7 @@ msgstr "선택 마스크"
 
 #: ulng.rsmaskinput
 msgid "Input mask:"
-msgstr "삽입 마스크:"
+msgstr "마스크 입력:"
 
 #: ulng.rsmenuconfigurecolumnsalreadyexists
 msgid "A columns view with that name already exists."
