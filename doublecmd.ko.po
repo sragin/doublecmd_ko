@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.8.1 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2018-02-05 11:52+0900\n"
+"PO-Revision-Date: 2018-02-06 23:07+0900\n"
 "Pre-Translator: Sangjin <comsem1104@naver.com>\n"
 "Last-Translator: Jongpil <sragin@naver.com>\n"
 "MIME-Version: 1.0\n"
@@ -1325,7 +1325,6 @@ msgid "???"
 msgstr "???"
 
 #: tfrmfileproperties.lblcontainsstr.caption
-#, fuzzy
 msgid "Contains:"
 msgstr "Contains:"
 
@@ -6203,7 +6202,6 @@ msgid "&Delete hotkey"
 msgstr "바로 가기 삭제(&D)"
 
 #: tfrmoptionshotkeys.actedithotkey.caption
-#, fuzzy
 msgctxt "tfrmoptionshotkeys.actedithotkey.caption"
 msgid "&Edit hotkey"
 msgstr "바로 가기 편집(&E)"
@@ -6221,7 +6219,6 @@ msgid "Previous category"
 msgstr ""
 
 #: tfrmoptionshotkeys.actrename.caption
-#, fuzzy
 msgctxt "tfrmoptionshotkeys.actrename.caption"
 msgid "Rename"
 msgstr "이름 바꾸기"
@@ -6275,13 +6272,11 @@ msgid "Categories"
 msgstr ""
 
 #: tfrmoptionshotkeys.micommands.caption
-#, fuzzy
 msgctxt "tfrmoptionshotkeys.micommands.caption"
 msgid "Command"
 msgstr "명령어"
 
 #: tfrmoptionshotkeys.miseparator1.caption
-#, fuzzy
 msgctxt "tfrmoptionshotkeys.miseparator1.caption"
 msgid "-"
 msgstr "-"
@@ -6984,19 +6979,16 @@ msgid "Default position in menu when saving a new Favorite Tabs:"
 msgstr "새 즐겨찾기탭 추가시 메뉴 기본 위치:"
 
 #: tfrmoptionsterminal.edrunintermcloseparams.hint
-#, fuzzy
 msgctxt "tfrmoptionsterminal.edrunintermcloseparams.hint"
 msgid "{command} should normally be present here to reflect the command to be run in terminal"
 msgstr "{명령}은 명령 프롬프트에서 실행을 반영하기 위해 이곳에 일반적으로 위치해야 함."
 
 #: tfrmoptionsterminal.edrunintermstayopenparams.hint
-#, fuzzy
 msgctxt "tfrmoptionsterminal.edrunintermstayopenparams.hint"
 msgid "{command} should normally be present here to reflect the command to be run in terminal"
 msgstr "{명령}은 명령 프롬프트에서 실행을 반영하기 위해 이곳에 일반적으로 위치해야 함."
 
 #: tfrmoptionsterminal.edruntermparams.hint
-#, fuzzy
 msgctxt "tfrmoptionsterminal.edruntermparams.hint"
 msgid "{command} should normally be present here to reflect the command to be run in terminal"
 msgstr "{명령}은 명령 프롬프트에서 실행을 반영하기 위해 이곳에 일반적으로 위치해야 함."
@@ -7014,37 +7006,31 @@ msgid "Command for running a command in terminal and stay open:"
 msgstr "명령 프롬프트 실행과 열린 상태에서의 명령어:"
 
 #: tfrmoptionsterminal.lbrunintermclosecmd.caption
-#, fuzzy
 msgctxt "tfrmoptionsterminal.lbrunintermclosecmd.caption"
 msgid "Command:"
 msgstr "명령어:"
 
 #: tfrmoptionsterminal.lbrunintermcloseparams.caption
-#, fuzzy
 msgctxt "tfrmoptionsterminal.lbrunintermcloseparams.caption"
 msgid "Parameters:"
 msgstr "매개변수:"
 
 #: tfrmoptionsterminal.lbrunintermstayopencmd.caption
-#, fuzzy
 msgctxt "tfrmoptionsterminal.lbrunintermstayopencmd.caption"
 msgid "Command:"
 msgstr "명령어:"
 
 #: tfrmoptionsterminal.lbrunintermstayopenparams.caption
-#, fuzzy
 msgctxt "tfrmoptionsterminal.lbrunintermstayopenparams.caption"
 msgid "Parameters:"
 msgstr "매개변수:"
 
 #: tfrmoptionsterminal.lbruntermcmd.caption
-#, fuzzy
 msgctxt "tfrmoptionsterminal.lbruntermcmd.caption"
 msgid "Command:"
 msgstr "명령어:"
 
 #: tfrmoptionsterminal.lbruntermparams.caption
-#, fuzzy
 msgctxt "tfrmoptionsterminal.lbruntermparams.caption"
 msgid "Parameters:"
 msgstr "매개변수:"
@@ -7715,73 +7701,61 @@ msgid "With History:"
 msgstr ""
 
 #: tfrmoptionstreeviewmenucolor.btnbackgroundcolor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnbackgroundcolor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btncursorcolor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btncursorcolor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnfoundtextcolor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnfoundtextcolor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnfoundtextundercursor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnfoundtextundercursor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnnormaltextcolor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnnormaltextcolor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnnormaltextundercursor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnnormaltextundercursor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnsecondarytextcolor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnsecondarytextcolor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnsecondarytextundercursor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnsecondarytextundercursor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnshortcutcolor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnshortcutcolor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnshortcutundercursor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnshortcutundercursor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnunselectabletextcolor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnunselectabletextcolor.caption"
 msgid ">>"
 msgstr ">>"
 
 #: tfrmoptionstreeviewmenucolor.btnunselectableundercursor.caption
-#, fuzzy
 msgctxt "tfrmoptionstreeviewmenucolor.btnunselectableundercursor.caption"
 msgid ">>"
 msgstr ">>"
@@ -8728,7 +8702,6 @@ msgid "Copy File"
 msgstr "파일 복사"
 
 #: tfrmviewer.actcopytoclipboard.caption
-#, fuzzy
 msgctxt "tfrmviewer.actcopytoclipboard.caption"
 msgid "Copy To Clipboard"
 msgstr "클립보드로 복사"
@@ -8748,19 +8721,16 @@ msgid "Delete File"
 msgstr "파일 삭제"
 
 #: tfrmviewer.actexitviewer.caption
-#, fuzzy
 msgctxt "tfrmviewer.actexitviewer.caption"
 msgid "E&xit"
 msgstr "종료(&X)"
 
 #: tfrmviewer.actfind.caption
-#, fuzzy
 msgctxt "tfrmviewer.actfind.caption"
 msgid "Find"
 msgstr "찾기"
 
 #: tfrmviewer.actfindnext.caption
-#, fuzzy
 msgctxt "tfrmviewer.actfindnext.caption"
 msgid "Find next"
 msgstr "다음 찾기"
@@ -8768,16 +8738,14 @@ msgstr "다음 찾기"
 #: tfrmviewer.actfindprev.caption
 msgctxt "tfrmviewer.actfindprev.caption"
 msgid "Find previous"
-msgstr ""
+msgstr "이전 찾기"
 
 #: tfrmviewer.actfullscreen.caption
-#, fuzzy
 msgctxt "tfrmviewer.actfullscreen.caption"
 msgid "Full Screen"
 msgstr "전체화면"
 
 #: tfrmviewer.actimagecenter.caption
-#, fuzzy
 msgctxt "tfrmviewer.actimagecenter.caption"
 msgid "Center"
 msgstr "가운데"
@@ -8806,7 +8774,6 @@ msgid "Mirror Horizontally"
 msgstr ""
 
 #: tfrmviewer.actmirrorhorz.hint
-#, fuzzy
 msgctxt "tfrmviewer.actmirrorhorz.hint"
 msgid "Mirror"
 msgstr "미러"
@@ -8826,7 +8793,6 @@ msgid "Move File"
 msgstr "파일 이동"
 
 #: tfrmviewer.actpreview.caption
-#, fuzzy
 msgctxt "tfrmviewer.actpreview.caption"
 msgid "Preview"
 msgstr "미리보기"
@@ -8841,49 +8807,42 @@ msgid "Reload current file"
 msgstr "현재 파일 다시 불러오기"
 
 #: tfrmviewer.actrotate180.caption
-#, fuzzy
 #| msgid "Rotate 180"
 msgctxt "TFRMVIEWER.ACTROTATE180.CAPTION"
 msgid "+ 180"
 msgstr "180도 회전"
 
 #: tfrmviewer.actrotate180.hint
-#, fuzzy
 #| msgid "Rotate 180"
 msgctxt "TFRMVIEWER.ACTROTATE180.HINT"
 msgid "Rotate 180 degrees"
 msgstr "180도 회전"
 
 #: tfrmviewer.actrotate270.caption
-#, fuzzy
 #| msgid "Rotate 270"
 msgctxt "TFRMVIEWER.ACTROTATE270.CAPTION"
 msgid "- 90"
 msgstr "270도 회전"
 
 #: tfrmviewer.actrotate270.hint
-#, fuzzy
 #| msgid "Rotate 270"
 msgctxt "TFRMVIEWER.ACTROTATE270.HINT"
 msgid "Rotate -90 degrees"
 msgstr "270도 회전"
 
 #: tfrmviewer.actrotate90.caption
-#, fuzzy
 #| msgid "Rotate 90"
 msgctxt "TFRMVIEWER.ACTROTATE90.CAPTION"
 msgid "+ 90"
 msgstr "90도 회전"
 
 #: tfrmviewer.actrotate90.hint
-#, fuzzy
 #| msgid "Rotate 90"
 msgctxt "TFRMVIEWER.ACTROTATE90.HINT"
 msgid "Rotate +90 degrees"
 msgstr "90도 회전"
 
 #: tfrmviewer.actsave.caption
-#, fuzzy
 msgctxt "tfrmviewer.actsave.caption"
 msgid "Save"
 msgstr "저장"
@@ -8898,7 +8857,6 @@ msgid "Save File As..."
 msgstr "파일로 저장..."
 
 #: tfrmviewer.actscreenshot.caption
-#, fuzzy
 msgctxt "tfrmviewer.actscreenshot.caption"
 msgid "Screenshot"
 msgstr "화면캡쳐"
@@ -8912,19 +8870,16 @@ msgid "Delay 5 sec"
 msgstr ""
 
 #: tfrmviewer.actselectall.caption
-#, fuzzy
 msgctxt "tfrmviewer.actselectall.caption"
 msgid "Select All"
 msgstr "전체 선택"
 
 #: tfrmviewer.actshowasbin.caption
-#, fuzzy
 msgctxt "tfrmviewer.actshowasbin.caption"
 msgid "Show as &Bin"
 msgstr "바이너리로 표시(&B)"
 
 #: tfrmviewer.actshowasbook.caption
-#, fuzzy
 msgctxt "tfrmviewer.actshowasbook.caption"
 msgid "Show as B&ook"
 msgstr "책으로 표시(&O)"
@@ -8934,31 +8889,26 @@ msgid "Show as &Dec"
 msgstr ""
 
 #: tfrmviewer.actshowashex.caption
-#, fuzzy
 msgctxt "tfrmviewer.actshowashex.caption"
 msgid "Show as &Hex"
 msgstr "헥사코드로 표시(&H)"
 
 #: tfrmviewer.actshowastext.caption
-#, fuzzy
 msgctxt "tfrmviewer.actshowastext.caption"
 msgid "Show as &Text"
 msgstr "텍스트로 표시(&T)"
 
 #: tfrmviewer.actshowaswraptext.caption
-#, fuzzy
 msgctxt "tfrmviewer.actshowaswraptext.caption"
 msgid "Show as &Wrap text"
 msgstr "텍스트 줄바꿈 표시(&W)"
 
 #: tfrmviewer.actshowgraphics.caption
-#, fuzzy
 msgctxt "tfrmviewer.actshowgraphics.caption"
 msgid "Graphics"
 msgstr "그래픽"
 
 #: tfrmviewer.actshowplugins.caption
-#, fuzzy
 msgctxt "tfrmviewer.actshowplugins.caption"
 msgid "Plugins"
 msgstr "플러그인"
@@ -8973,7 +8923,6 @@ msgid "Stretch Image"
 msgstr "이미지 늘이기"
 
 #: tfrmviewer.actstretchonlylarge.caption
-#, fuzzy
 msgctxt "tfrmviewer.actstretchonlylarge.caption"
 msgid "Stretch only large"
 msgstr "크게만 늘이기"
@@ -8983,13 +8932,11 @@ msgid "Zoom"
 msgstr ""
 
 #: tfrmviewer.actzoomin.caption
-#, fuzzy
 msgctxt "tfrmviewer.actzoomin.caption"
 msgid "Zoom In"
 msgstr "확대"
 
 #: tfrmviewer.actzoomout.caption
-#, fuzzy
 msgctxt "tfrmviewer.actzoomout.caption"
 msgid "Zoom Out"
 msgstr "축소"
@@ -9207,7 +9154,6 @@ msgid "When file exists"
 msgstr "파일이 있을 때"
 
 #: twfxplugincopymoveoperationoptionsui.cbcopytime.caption
-#, fuzzy
 msgctxt "twfxplugincopymoveoperationoptionsui.cbcopytime.caption"
 msgid "Copy d&ate/time"
 msgstr "날짜/시간 복사(&A)"
@@ -9226,13 +9172,11 @@ msgid "Date taken"
 msgstr ""
 
 #: uexifreader.rsimageheight
-#, fuzzy
 msgctxt "uexifreader.rsimageheight"
 msgid "Height"
 msgstr "높이"
 
 #: uexifreader.rsimagewidth
-#, fuzzy
 msgctxt "uexifreader.rsimagewidth"
 msgid "Width"
 msgstr "폭"
@@ -9862,13 +9806,11 @@ msgid "Edit Comment Dialog"
 msgstr "주석 대화상자 편집"
 
 #: ulng.rshotkeycategoryeditor
-#, fuzzy
 msgctxt "ulng.rshotkeycategoryeditor"
 msgid "Editor"
 msgstr "편집기"
 
 #: ulng.rshotkeycategoryfindfiles
-#, fuzzy
 msgctxt "ulng.rshotkeycategoryfindfiles"
 msgid "Find files"
 msgstr "파일 찾기"
@@ -10066,12 +10008,11 @@ msgstr ""
 
 #: ulng.rsmsgcannotcopymoveitself
 msgid "You can not copy/move a file \"%s\" to itself!"
-msgstr "\"%s\"파일 자체를 복사/이동할 수 없습니다."
+msgstr "\"%s\"파일 자체를 복사/이동할 수 없습니다!"
 
 #: ulng.rsmsgcannotdeletedirectory
-#, fuzzy
 msgid "Cannot delete directory %s"
-msgstr "폴더(디렉토리)삭제 할 수 없음"
+msgstr "%s 디렉토리 삭제 할 수 없음"
 
 #: ulng.rsmsgcannotoverwritedirectory
 msgid "Cannot overwrite directory \"%s\" with non-directory \"%s\""
@@ -10175,7 +10116,7 @@ msgstr "압축 데이터에 CRC 오류 발생"
 
 #: ulng.rsmsgerrbaddata
 msgid "Data is bad"
-msgstr "데이터에 문제가 있습니다."
+msgstr "데이터에 문제가 있습니다"
 
 #: ulng.rsmsgerrcannotconnect
 msgid "Can not connect to server: \"%s\""
@@ -10226,9 +10167,8 @@ msgid "Error writing to file"
 msgstr "파일에 쓰기 오류"
 
 #: ulng.rsmsgerrforcedir
-#, fuzzy
 msgid "Can not create directory %s!"
-msgstr "폴더(디렉토리)를 생성할 수 없음!"
+msgstr "%s 디렉토리를 생성할 수 없음!"
 
 #: ulng.rsmsgerrinvalidlink
 msgid "Invalid link"
@@ -10396,8 +10336,6 @@ msgid ""
 msgstr ""
 
 #: ulng.rsmsgfilereadonly
-#, fuzzy
-#| msgid "File %s is marked as read-only. Delete it?"
 msgid "File %s is marked as read-only/hidden/system. Delete it?"
 msgstr "선택된 %s 파일은 읽기 속성입니다. 삭제할까요?"
 
@@ -10406,8 +10344,6 @@ msgid "The file size of \"%s\" is too big for destination file system!"
 msgstr "\"%s\" 파일 크기가 복사될 파일시스템에는 너무 큽니다!"
 
 #: ulng.rsmsgfolderexistsrwrt
-#, fuzzy
-#| msgid "Folder %s exists, overwrite?"
 msgid "Folder %s exists, merge?"
 msgstr "%s 폴더가 있습니다, 덮어쓸까요?"
 
@@ -10454,7 +10390,7 @@ msgstr "다음 명령어가 실행됨:"
 
 #: ulng.rsmsghotdirdemoname
 msgid "This is hot dir named "
-msgstr "이것은 바로 가기 이름임"
+msgstr "이것은 바로 가기 이름임 "
 
 #: ulng.rsmsghotdirdemopath
 msgid "This will change active frame to the following path:"
@@ -10499,11 +10435,9 @@ msgid "Import selected"
 msgstr "선택 불러오기"
 
 #: ulng.rsmsghotdirjustpath
-#, fuzzy
-#| msgid "Path"
 msgctxt "ulng.rsmsghotdirjustpath"
 msgid "&Path:"
-msgstr "경로"
+msgstr "경로(&P):"
 
 #: ulng.rsmsghotdirlocatehotlistfile
 msgid "Locate \".hotlist\" file to import"
@@ -10548,18 +10482,14 @@ msgid "(end of sub menu)"
 msgstr "(하위메뉴 끝)"
 
 #: ulng.rsmsghotdirsimplemenu
-#, fuzzy
-#| msgid "Menu name:"
 msgctxt "ulng.rsmsghotdirsimplemenu"
 msgid "Menu &name:"
-msgstr "메뉴명:"
+msgstr "메뉴명(&N):"
 
 #: ulng.rsmsghotdirsimplename
-#, fuzzy
-#| msgid "Name:"
 msgctxt "ulng.rsmsghotdirsimplename"
 msgid "&Name:"
-msgstr "파일명:"
+msgstr "파일명(&N):"
 
 #: ulng.rsmsghotdirsimpleseparator
 msgctxt "ulng.rsmsghotdirsimpleseparator"
@@ -10658,9 +10588,8 @@ msgid "This is not a valid plugin!"
 msgstr "유효한 플러그인 아님!"
 
 #: ulng.rsmsginvalidpluginarchitecture
-#, fuzzy
 msgid "This plugin is built for Double Commander for %s.%sIt can not work with Double Commander for %s!"
-msgstr "이것은 더블커맨더 %를 위한 플러그인입니다!"
+msgstr "이것은 더블커맨더 %s를 위한 플러그인입니다.%s이 플러그인은 더블커맨더 %s에서 동작하지 않습니다!"
 
 #: ulng.rsmsginvalidquoting
 msgid "Invalid quoting"
@@ -10792,7 +10721,7 @@ msgstr "구현되지 않음."
 
 #: ulng.rsmsgobjectnotexists
 msgid "Object does not exist!"
-msgstr ""
+msgstr "객체가 존재하지 않습니다!"
 
 #: ulng.rsmsgpanelpreview
 msgctxt "ulng.rsmsgpanelpreview"
@@ -11101,7 +11030,7 @@ msgstr "변화없음;대문자;소문자;첫번째 문자 대문자;모든 단�
 
 #: ulng.rsmulrenwarningduplicate
 msgid "Warning, duplicate names!"
-msgstr ""
+msgstr "경고, 중복된 이름!"
 
 #: ulng.rsmulrenwronglinesnumber
 msgid "File contains wrong number of lines: %d, should be %d!"
@@ -11338,9 +11267,8 @@ msgid "Working"
 msgstr "작업중"
 
 #: ulng.rsoptaddfrommainpanel
-#, fuzzy
 msgid "Add at &beginning;Add at the end;Smart add"
-msgstr "시작에 추가;마지막에 추가;스마트 추가"
+msgstr "시작에 추가(&B);마지막에 추가;스마트 추가"
 
 #: ulng.rsoptarchivedelete
 msgctxt "ulng.rsoptarchivedelete"
@@ -11440,7 +11368,7 @@ msgstr "float;B;K;M;G"
 
 #: ulng.rsopthotkeysadddeleteshortcutlong
 msgid "Shortcut %s for cm_Delete will be registered, so it can be used to reverse this setting."
-msgstr "cm_Delete를 위한 %s 단축키가 등록될 것이며 이것은 이 설정을 역으로 되돌리는데 사용될 수 있음"
+msgstr "cm_Delete를 위한 %s 단축키가 등록될 것이며 이것은 이 설정을 역으로 되돌리는데 사용될 수 있음."
 
 #: ulng.rsopthotkeysaddhotkey
 msgid "Add hotkey for %s"
@@ -11466,12 +11394,12 @@ msgstr "명령어"
 #: ulng.rsopthotkeysdeletetrashcanoverrides
 msgctxt "ulng.rsopthotkeysdeletetrashcanoverrides"
 msgid "Shortcut %s for cm_Delete has a parameter that overrides this setting. Do you want to change this parameter to use the global setting?"
-msgstr "cm_Delete를 위한 %s 단축키 매겨변수가 이 설정에는 무효합니다. 전역변수로 이 매개변수를 수정할까요?"
+msgstr "cm_Delete의 %s 단축키 매개변수가 이 설정에는 무효합니다. 전역변수로 이 매개변수를 수정할까요?"
 
 #: ulng.rsopthotkeysdeletetrashcanparameterexists
 msgctxt "ulng.rsopthotkeysdeletetrashcanparameterexists"
 msgid "Shortcut %s for cm_Delete needs to have a parameter changed to match shortcut %s. Do you want to change it?"
-msgstr "  cm_Delete를 위해 %s 단축키가는 %s 단축키와 일치하기 위한 매개변수가 필요합니다. 변경할까요?"
+msgstr "cm_Delete의 %s 단축키는 %s 단축키와 일치하기 위한 매개변수가 필요합니다. 변경할까요?"
 
 #: ulng.rsopthotkeysdescription
 msgctxt "ulng.rsopthotkeysdescription"
@@ -11511,11 +11439,11 @@ msgstr "파일 삭제 바로 가기 설정"
 
 #: ulng.rsopthotkeysshortcutfordeletealreadyassigned
 msgid "For this setting to work with shortcut %s, shortcut %s must be assigned to cm_Delete but it is already assigned to %s. Do you want to change it?"
-msgstr "%s 단축키가 작동하기 위해서는 %s 단축키다 cm_Delete에 할당되어 있어야만 하지만 이미 %s에 할당되어 있음. 변경하시겠습니까?"
+msgstr "%s 단축키가 작동하기 위해서는 %s 단축키가 cm_Delete에 할당되어 있어야만 하지만 이미 %s에 할당되어 있음. 변경하시겠습니까?"
 
 #: ulng.rsopthotkeysshortcutfordeleteissequence
 msgid "Shortcut %s for cm_Delete is a sequence shortcut for which a hotkey with reversed Shift cannot be assigned. This setting might not work."
-msgstr "cm_Delete %s 단축키는 연속된 단축키로 Shift키를 바로 가기로 할당할 수 없음. 이 설정은 작동하지 않을 것임."
+msgstr "cm_Delete의 %s 단축키는 연속된 단축키로 Shift키를 바로 가기로 할당할 수 없음. 이 설정은 작동하지 않을 것임."
 
 #: ulng.rsopthotkeysshortcutused
 msgid "Shortcut in use"
@@ -11523,7 +11451,7 @@ msgstr "단축키 사용중"
 
 #: ulng.rsopthotkeysshortcutusedtext1
 msgid "Shortcut %s is already used."
-msgstr "%s 단축키 이미 사용중"
+msgstr "%s 단축키 이미 사용중."
 
 #: ulng.rsopthotkeysshortcutusedtext2
 msgid "Change it to %s?"
@@ -11602,7 +11530,6 @@ msgid "File associations"
 msgstr "파일 연결 프로그램"
 
 #: ulng.rsoptionseditorfilenewfiletypes
-#, fuzzy
 msgctxt "ulng.rsoptionseditorfilenewfiletypes"
 msgid "New"
 msgstr "새 파일"
@@ -11698,6 +11625,9 @@ msgid ""
 "\n"
 "Do you want to save modifications?\n"
 msgstr ""
+"\"%s\"의 옵션이 변경되었습니다\n"
+"\n"
+"변경사항을 저장하시겠습니까?\n"
 
 #: ulng.rsoptionseditorplugins
 msgctxt "ulng.rsoptionseditorplugins"
@@ -11731,11 +11661,11 @@ msgstr "풍선도움말"
 #: ulng.rsoptionseditortreeviewmenu
 msgctxt "ulng.rsoptionseditortreeviewmenu"
 msgid "Tree View Menu"
-msgstr ""
+msgstr "트리뷰 메뉴"
 
 #: ulng.rsoptionseditortreeviewmenucolors
 msgid "Tree View Menu Colors"
-msgstr ""
+msgstr "트리뷰 메뉴색"
 
 #: ulng.rsoptletters
 msgid "None;Command Line;Quick Search;Quick Filter"
@@ -11747,11 +11677,11 @@ msgstr "왼쪽 마우스 버튼; 오른쪽 마우스 버튼;"
 
 #: ulng.rsoptnewfilesposition
 msgid "at the top of the file list;after directories (if directories are sorted before files);at sorted position;at the bottom of the file list"
-msgstr "최상위 필터 목록; 폴더 뒤에(폴더가 파일 앞에 정렬되었다면); 위치에 정렬; 파일 목록 마지막"
+msgstr "파일 목록 처음에;폴더 뒤에(폴더가 파일 앞에 정렬되었다면);정렬된 위치에;파일 목록 마지막에"
 
 #: ulng.rsoptpluginalreadyassigned
 msgid "Plugin %s is already assigned for the following extensions:"
-msgstr "%s 플러그인의 확장자가 이미 할당되어 있습니다.:"
+msgstr "%s 플러그인의 확장자가 이미 할당되어 있습니다:"
 
 #: ulng.rsoptpluginsactive
 msgctxt "ulng.rsoptpluginsactive"
@@ -11787,15 +11717,15 @@ msgstr "포커스되지 않으면 필터창 감추기(&H);다음 세션을 위�
 
 #: ulng.rsoptsortcasesens
 msgid "not case sensitive;according to locale settings (aAbBcC);first upper then lower case (ABCabc)"
-msgstr "대소문자 구분 안함; 로케일(locale) 설정 (aAbBcC); 대문자 우선(ABCabc)"
+msgstr "대소문자 구분 안함;로케일(locale) 설정 (aAbBcC);대문자 우선(ABCabc)"
 
 #: ulng.rsoptsortfoldermode
 msgid "sort by name and show first;sort like files and show first;sort like files"
-msgstr "이름 정렬하고 먼저 보여주기; 파일 정렬하고 먼저 보여주기; 파일로 정렬"
+msgstr "이름 정렬하고 먼저 보여주기;파일 정렬하고 먼저 보여주기;파일로 정렬"
 
 #: ulng.rsoptsortmethod
 msgid "Alphabetical, considering accents;Natural sorting: alphabetical and numbers"
-msgstr "알파벳순, 액센트 고려하기;자연 정렬; 알파벳 숫자순 정렬"
+msgstr "알파벳순, 액센트 고려하기;자연 정렬: 알파벳 숫자순 정렬"
 
 #: ulng.rsopttabsposition
 msgid "Top;Bottom;"
@@ -11811,7 +11741,7 @@ msgstr "DC 고전방법 - Copy (x) 파일명.확장자;Windows - 파일명 (x).�
 
 #: ulng.rsoptupdatedfilesposition
 msgid "don't change position;use the same setting as for new files;to sorted position"
-msgstr "파일위치 변경 금지; 새 파일에 동일한 설정 사용: 위치에 정렬"
+msgstr "파일위치 변경 금지;새 파일에 동일한 설정 사용;위치에 정렬"
 
 #: ulng.rspropscontains
 msgid "Files: %d, folders: %d"
@@ -11885,11 +11815,11 @@ msgstr ""
 
 #: ulng.rsselectdir
 msgid "Select a directory"
-msgstr "폴더(디렉토리) 선택"
+msgstr "디렉토리 선택"
 
 #: ulng.rsselectyoufindfileswindow
 msgid "Select your window"
-msgstr ""
+msgstr "창 선택"
 
 #: ulng.rsshowhelpfor
 msgid "&Show help for %s"
@@ -11924,7 +11854,7 @@ msgstr "파일"
 
 #: ulng.rssimplewordletter
 msgid "Letter"
-msgstr ""
+msgstr "글자"
 
 #: ulng.rssimplewordparameter
 msgid "Param"
@@ -11983,7 +11913,7 @@ msgstr "100개 이상으로 분리됩니다. 계속할까요?"
 
 #: ulng.rssplitpredefinedsizes
 msgid "Automatic;1457664B - 3.5\" High Density 1.44M;1213952B - 5.25\" High Density 1.2M;730112B - 3.5\" Double Density 720K;362496B - 5.25\" Double Density 360K;98078KB - ZIP 100MB;650MB - CD 650MB;700MB - CD 700MB;4482MB - DVD+R"
-msgstr ""
+msgstr "자동;1457664B - 3.5\" High Density 1.44M;1213952B - 5.25\" High Density 1.2M;730112B - 3.5\" Double Density 720K;362496B - 5.25\" Double Density 360K;98078KB - ZIP 100MB;650MB - CD 650MB;700MB - CD 700MB;4482MB - DVD+R"
 
 #: ulng.rssplitseldir
 msgid "Select directory:"
@@ -11991,11 +11921,11 @@ msgstr "폴더 선택:"
 
 #: ulng.rsstraccents
 msgid "á;â;à;å;ã;ä;ç;é;ê;è;ë;í;î;ì;ï;ñ;ó;ô;ò;ø;õ;ö;ú;û;ù;ü;ÿ;Á;Â;À;Å;Ã;Ä;Ç;É;Ê;È;Ë;Í;Í;Ì;Ï;Ñ;Ó;Ô;Ø;Õ;Ö;ß;Ú;Û;Ù;Ü;Ÿ;¿;¡;œ;æ;Æ;Œ"
-msgstr ""
+msgstr "á;â;à;å;ã;ä;ç;é;ê;è;ë;í;î;ì;ï;ñ;ó;ô;ò;ø;õ;ö;ú;û;ù;ü;ÿ;Á;Â;À;Å;Ã;Ä;Ç;É;Ê;È;Ë;Í;Í;Ì;Ï;Ñ;Ó;Ô;Ø;Õ;Ö;ß;Ú;Û;Ù;Ü;Ÿ;¿;¡;œ;æ;Æ;Œ"
 
 #: ulng.rsstraccentsstripped
 msgid "a;a;a;a;a;a;c;e;e;e;e;i;i;i;i;n;o;o;o;o;o;o;u;u;u;u;y;A;A;A;A;A;A;C;E;E;E;E;I;I;I;I;N;O;O;O;O;O;B;U;U;U;U;Y;?;!;oe;ae;AE;OE"
-msgstr ""
+msgstr "a;a;a;a;a;a;c;e;e;e;e;i;i;i;i;n;o;o;o;o;o;o;u;u;u;u;y;A;A;A;A;A;A;C;E;E;E;E;I;I;I;I;N;O;O;O;O;O;B;U;U;U;U;Y;?;!;oe;ae;AE;OE"
 
 #: ulng.rsstrpreviewjustpreview
 msgid "Just preview"
@@ -12085,7 +12015,7 @@ msgstr "일반 텍스트"
 
 #: ulng.rstabsactionondoubleclickchoices
 msgid "Do nothing;Close tab;Access Favorite Tabs;Tabs popup menu"
-msgstr "아무것도 하지 않음;탭 닫기;즐겨찾기탭 액세소;탭 팝업 메뉴"
+msgstr "아무것도 하지 않음;탭 닫기;즐겨찾기탭 액세스;탭 팝업 메뉴"
 
 #: ulng.rstimeunitday
 msgctxt "ulng.rstimeunitday"
@@ -12094,23 +12024,23 @@ msgstr "일"
 
 #: ulng.rstimeunithour
 msgid "Hour(s)"
-msgstr "시(s)"
+msgstr "시"
 
 #: ulng.rstimeunitminute
 msgid "Minute(s)"
-msgstr "분(s)"
+msgstr "분"
 
 #: ulng.rstimeunitmonth
 msgid "Month(s)"
-msgstr "월(s)"
+msgstr "월"
 
 #: ulng.rstimeunitsecond
 msgid "Second(s)"
-msgstr "초(s)"
+msgstr "초"
 
 #: ulng.rstimeunitweek
 msgid "Week(s)"
-msgstr "주(s)"
+msgstr "주"
 
 #: ulng.rstimeunityear
 msgid "Year(s)"
