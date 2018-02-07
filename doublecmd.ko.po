@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 0.8.1 beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-22 23:08+030\n"
-"PO-Revision-Date: 2018-02-06 23:07+0900\n"
+"PO-Revision-Date: 2018-02-07 12:25+0900\n"
 "Pre-Translator: Sangjin <comsem1104@naver.com>\n"
 "Last-Translator: Jongpil <sragin@naver.com>\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "링크 연결(&L)"
 
 #: tfilesystemcopymoveoperationoptionsui.cbreservespace.caption
 msgid "&Reserve space"
-msgstr "공간 리버스(&R)"
+msgstr "공간 예약(&R)"
 
 #: tfilesystemcopymoveoperationoptionsui.chkverify.caption
 msgid "&Verify"
@@ -2065,7 +2065,7 @@ msgstr "폴더 비교"
 #: tfrmmain.actconfigdirhotlist.caption
 msgctxt "TFRMMAIN.ACTCONFIGDIRHOTLIST.CAPTION"
 msgid "Configuration of Directory Hotlist"
-msgstr "폴더 바로 가기 설정"
+msgstr "폴더 바로가기 설정"
 
 #: tfrmmain.actconfigfavoritetabs.caption
 msgid "Configuration of Favorite Tabs"
@@ -2175,7 +2175,7 @@ msgstr "폴더 히스토리"
 
 #: tfrmmain.actdirhotlist.caption
 msgid "Directory &Hotlist"
-msgstr "폴더 바로 가기 목록(&H)"
+msgstr "폴더 바로가기 목록(&H)"
 
 #: tfrmmain.actdoanycmcommand.caption
 msgid "Select any command and execute it"
@@ -2802,7 +2802,7 @@ msgstr "*"
 #: tfrmmain.btnleftdirectoryhotlist.hint
 msgctxt "TFRMMAIN.BTNLEFTDIRECTORYHOTLIST.HINT"
 msgid "Directory Hotlist"
-msgstr "폴더 바로 가기"
+msgstr "폴더 바로가기"
 
 #: tfrmmain.btnleftequalright.caption
 msgctxt "tfrmmain.btnleftequalright.caption"
@@ -2851,7 +2851,7 @@ msgstr "*"
 #: tfrmmain.btnrightdirectoryhotlist.hint
 msgctxt "TFRMMAIN.BTNRIGHTDIRECTORYHOTLIST.HINT"
 msgid "Directory Hotlist"
-msgstr "폴더 바로 가기"
+msgstr "폴더 바로가기"
 
 #: tfrmmain.btnrightequalleft.caption
 msgctxt "tfrmmain.btnrightequalleft.caption"
@@ -4853,7 +4853,7 @@ msgstr "파일명, a-z"
 
 #: tfrmoptionsdirectoryhotlist.gbdirectoryhotlist.caption
 msgid "Directory Hotlist (reorder by drag && drop)"
-msgstr "즐겨찾기 디렉터리(드래그 && 드롭으로 재정렬)"
+msgstr "폴더 바로가기 (드래그 && 드롭으로 재정렬)"
 
 #: tfrmoptionsdirectoryhotlist.gbhotlistotheroptions.caption
 msgctxt "tfrmoptionsdirectoryhotlist.gbhotlistotheroptions.caption"
@@ -4892,7 +4892,7 @@ msgstr "바로 가기 경로 && 타깃 유효성 점검하기(&S)"
 
 #: tfrmoptionsdirectoryhotlist.miexporttohotlistfile.caption
 msgid "to a Directory &Hotlist file (.hotlist)"
-msgstr "폴더 바로 가기 목록 파일 (.hotlist) (&H)"
+msgstr "폴더 바로가기 목록 파일 (.hotlist) (&H)"
 
 #: tfrmoptionsdirectoryhotlist.miexporttototalcommanderk.caption
 msgctxt "tfrmoptionsdirectoryhotlist.miexporttototalcommanderk.caption"
@@ -4920,7 +4920,7 @@ msgstr "바로 가기테스트메뉴"
 
 #: tfrmoptionsdirectoryhotlist.miimportfromhotlistfile.caption
 msgid "from a Directory &Hotlist file (.hotlist)"
-msgstr "폴더 바로 가기 파일로 부터 (.hotlist) (&H)"
+msgstr "폴더 바로가기 파일로 부터 (.hotlist) (&H)"
 
 #: tfrmoptionsdirectoryhotlist.miimporttotalcommander.caption
 msgid "from \"&wincmd.ini\" of TC"
@@ -4932,11 +4932,11 @@ msgstr "탐색(&N)..."
 
 #: tfrmoptionsdirectoryhotlist.mirestorebackuphotlist.caption
 msgid "&Restore a backup of Directory Hotlist"
-msgstr "폴더 바로 가기 백업에서 복구(&R)"
+msgstr "폴더 바로가기 백업에서 복구(&R)"
 
 #: tfrmoptionsdirectoryhotlist.misavebackuphotlist.caption
 msgid "&Save a backup of current Directory Hotlist"
-msgstr "현재 폴더 바로 가기 백업 저장(&S)"
+msgstr "폴더 바로가기 목록 백업(&S)"
 
 #: tfrmoptionsdirectoryhotlist.misearchandreplace.caption
 msgctxt "tfrmoptionsdirectoryhotlist.misearchandreplace.caption"
@@ -6625,7 +6625,7 @@ msgstr "로그 파일 내용 보기"
 
 #: tfrmoptionsmisc.chkdesccreateunicode.caption
 msgid "Create new with the encoding:"
-msgstr ""
+msgstr "다음 엔코딩으로 새 파일 생성:"
 
 #: tfrmoptionsmisc.chkgotoroot.caption
 msgid "Always &go to the root of a drive when changing drives"
@@ -6648,7 +6648,7 @@ msgstr "썸네일"
 
 #: tfrmoptionsmisc.gbfilecomments.caption
 msgid "File comments (descript.ion)"
-msgstr ""
+msgstr "파일 주석 (descript.ion)"
 
 #: tfrmoptionsmisc.gbtcexportimport.caption
 msgid "Regarding TC export/import:"
@@ -6656,7 +6656,7 @@ msgstr "TC(토탈 커맨더) 내보내기/가져오기 기능 관련:"
 
 #: tfrmoptionsmisc.lbldescrdefaultencoding.caption
 msgid "Default encoding:"
-msgstr ""
+msgstr "기본 엔코딩:"
 
 #: tfrmoptionsmisc.lbltcconfig.caption
 msgid "Configuration file:"
@@ -6835,7 +6835,7 @@ msgstr "목록 검색"
 
 #: tfrmoptionstabs.cbkeeprenamednamebacktonormal.caption
 msgid "Keep renamed name when unlocking a tab"
-msgstr "탭 잠금이 해제될 때 바꾼뀐 파일명 유지"
+msgstr "탭 잠금이 해제될 때 바뀐 파일명 유지"
 
 #: tfrmoptionstabs.cbtabsactivateonclick.caption
 msgctxt "TFRMOPTIONSTABS.CBTABSACTIVATEONCLICK.CAPTION"
@@ -7678,11 +7678,11 @@ msgstr ""
 
 #: tfrmoptionstreeviewmenu.gbtreeviewmenusettings.caption
 msgid "Tree View Menus related options:"
-msgstr ""
+msgstr "트리뷰 메뉴 관련 설정:"
 
 #: tfrmoptionstreeviewmenu.gbwheretousetreeviewmenu.caption
 msgid "Where to use Tree View Menus:"
-msgstr ""
+msgstr "트리뷰 메뉴를 사용할 곳:"
 
 #: tfrmoptionstreeviewmenu.lblnote.caption
 msgid "*NOTE: Regarding the options like the case sensitivity, ignoring accents or not, these are saved and restored individually for each context from a usage and session to another."
@@ -7690,15 +7690,15 @@ msgstr ""
 
 #: tfrmoptionstreeviewmenu.lbluseindirectoryhotlist.caption
 msgid "With Directory Hotlist:"
-msgstr ""
+msgstr "폴더 바로가기와 함께:"
 
 #: tfrmoptionstreeviewmenu.lblusewithfavoritetabs.caption
 msgid "With Favorite Tabs:"
-msgstr ""
+msgstr "즐겨찾기 탭과 함께:"
 
 #: tfrmoptionstreeviewmenu.lblusewithhistory.caption
 msgid "With History:"
-msgstr ""
+msgstr "히스토리와 함께:"
 
 #: tfrmoptionstreeviewmenucolor.btnbackgroundcolor.caption
 msgctxt "tfrmoptionstreeviewmenucolor.btnbackgroundcolor.caption"
@@ -10378,11 +10378,11 @@ msgstr "cm_somthing"
 #: ulng.rsmsghotdirconfighotlist
 msgctxt "ulng.rsmsghotdirconfighotlist"
 msgid "Configuration of Directory Hotlist"
-msgstr "폴더 바로 가기 환경설정"
+msgstr "폴더 바로가기 환경설정"
 
 #: ulng.rsmsghotdirdeleteallentries
 msgid "Are you sure you want to remove all entries of your Directory Hotlist? (There is no \"undo\" to this action!)"
-msgstr "폴더 바로 가기 설정을 모두 삭제할까요? (\"되돌리기\" 실행 안됨!)"
+msgstr "폴더 바로가기 설정을 모두 삭제할까요? (\"되돌리기\" 실행 안됨!)"
 
 #: ulng.rsmsghotdirdemocommand
 msgid "This will execute the following command:"
@@ -10414,7 +10414,7 @@ msgstr "전부 내보내기!"
 
 #: ulng.rsmsghotdirexporthotlist
 msgid "Export Directory Hotlist - Select the entries you want to export"
-msgstr "폴더 바로 가기 내보내기 - 내보내기하려는 목록 선택"
+msgstr "폴더 바로가기 내보내기 - 내보내기하려는 목록 선택"
 
 #: ulng.rsmsghotdirexportsel
 msgid "Export selected"
@@ -10427,7 +10427,7 @@ msgstr "모두 불러오기!"
 
 #: ulng.rsmsghotdirimporthotlist
 msgid "Import Directory Hotlist - Select the entries you want to import"
-msgstr "폴더 바로 가기 가져오기 - 가져오려는 목록 선택"
+msgstr "폴더 바로가기 가져오기 - 가져오려는 목록 선택"
 
 #: ulng.rsmsghotdirimportsel
 msgctxt "ulng.rsmsghotdirimportsel"
@@ -10469,7 +10469,7 @@ msgstr "현재 폴더 추가: "
 
 #: ulng.rsmsghotdirrestorewhat
 msgid "Enter location and filename of Directory Hotlist to restore"
-msgstr "복구하려는 폴더 바로 가기 위치와 파일명 입력"
+msgstr "복구하려는 폴더 바로가기 위치와 파일명 입력"
 
 #: ulng.rsmsghotdirsimplecommand
 msgctxt "ulng.rsmsghotdirsimplecommand"
@@ -10541,7 +10541,7 @@ msgstr ""
 
 #: ulng.rsmsghotdirwheretosave
 msgid "Enter location and filename where to save a Directory Hotlist file"
-msgstr "폴더(디렉토리) 바로 가기 파일을 저장할 장소와 파일명을 입력"
+msgstr "폴더 바로가기 파일을 저장할 장소와 파일명을 입력"
 
 #: ulng.rsmsgincorrectfilelength
 msgid "Incorrect resulting filelength for file : \"%s\""
@@ -11506,7 +11506,7 @@ msgstr "사용자 파일속성열"
 #: ulng.rsoptionseditordirectoryhotlist
 msgctxt "ulng.rsoptionseditordirectoryhotlist"
 msgid "Directory Hotlist"
-msgstr "폴더 바로 가기"
+msgstr "폴더 바로가기"
 
 #: ulng.rsoptionseditordraganddrop
 msgid "Drag & drop"
